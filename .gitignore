@@ -1,0 +1,16 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Data files (opcional si NO quieres subir datos)
+*.csv
+*.xlsx
+
+# Mac system files
+.DS_Store

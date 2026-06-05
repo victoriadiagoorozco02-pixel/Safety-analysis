@@ -2,7 +2,7 @@
 
 ## Descripción del Proyecto
 
-Este proyecto simula un escenario real de análisis de datos aplicado a Seguridad y Salud en el Trabajo (SST).
+Este proyecto se centra en realizar un análisis de datos aplicado a Seguridad y Salud en el Trabajo (SST).
 
 El objetivo fue desarrollar un flujo completo de trabajo de analítica de datos, desde la identificación de problemas de calidad de datos hasta la generación de hallazgos y recomendaciones para la toma de decisiones.
 

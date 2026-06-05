@@ -1,0 +1,737 @@
+employee_id,age,gender,department,job_role,years_experience,shift,accident_date,accident_type,severity,lost_days,ppe_used,training_completed,fatigue_level,root_cause,city,overtime_hours
+1271,60,FEMALE,Operations,Operator,19.5,day,2023-04-13,Cut,Moderate,2,Yes,Yes,8.0,Fatigue,Bogotá,11.0
+1131,39,FEMALE,Quality,Operator,1.4,day,2024-10-25,Ergonomic,Moderate,8,Yes,Yes,3.0,Human Error,Barranquilla,8.6
+1055,20,MALE,Production,Operator,21.5,day,2025-05-25,Fall,Moderate,6,No,Unknown,10.0,Fatigue,Bogotá,11.8
+1053,19,MALE,Warehouse,Operator,17.1,night,2025-02-15,Slip,Minor,7,Yes,No,4.0,Human Error,Cali,3.5
+1002,23,FEMALE,Production,Coordinator,5.2,day,2024-07-15,Fall,Moderate,0,No,Yes,8.0,Fatigue,Cali,3.6
+1215,57,MALE,Logistics,Technician,21.1,night,2024-04-06,Cut,Moderate,22,No,Yes,9.0,Lack of Training,Barranquilla,20.6
+1015,18,FEMALE,Operations,Supervisor,0.4,day,2023-06-06,Chemical Exposure,Minor,0,Yes,Yes,8.0,PPE Non-Compliance,Barranquilla,5.6
+1289,22,FEMALE,Production,Coordinator,23.2,day,2024-11-05,Struck By Object,Moderate,2,Yes,Yes,5.0,Lack of Training,Cartagena,11.1
+1172,57,MALE,Quality,Coordinator,6.9,day,2023-04-09,Chemical Exposure,Moderate,9,No,Yes,7.0,Fatigue,Barranquilla,11.4
+1283,26,MALE,Quality,Technician,17.8,day,2025-02-05,Fall,Minor,0,No,Yes,4.0,Fatigue,Barranquilla,9.8
+1231,32,FEMALE,Logistics,Analyst,18.9,day,2025-01-03,Cut,Minor,6,Yes,No,9.0,Fatigue,Medellín,8.6
+1284,45,MALE,Maintenance,Supervisor,5.5,day,2024-10-07,Ergonomic,Minor,5,Yes,Yes,1.0,Lack of Training,Cartagena,18.0
+1283,30,FEMALE,Maintenance,Coordinator,21.5,day,2024-01-20,Slip,Minor,0,Yes,Yes,8.0,Fatigue,Cali,14.8
+1160,49,FEMALE,Logistics,Coordinator,14.0,night,2025-04-06,Ergonomic,Minor,7,Yes,Yes,3.0,PPE Non-Compliance,Barranquilla,11.8
+1101,34,FEMALE,Operations,Supervisor,6.7,night,2023-04-23,Cut,Severe,5,Yes,Yes,2.0,Lack of Training,Bogotá,11.3
+1172,43,MALE,Quality,Supervisor,24.6,night,2023-02-22,Ergonomic,Minor,14,Yes,Yes,8.0,Unsafe Condition,Cali,18.0
+1098,23,FEMALE,Production,Technician,10.0,day,2025-04-16,Slip,Moderate,5,Yes,Yes,3.0,Fatigue,Cartagena,15.0
+1252,53,MALE,Logistics,Coordinator,0.4,night,2024-10-21,Chemical Exposure,Minor,11,Yes,Yes,7.0,Unsafe Condition,Medellín,2.2
+1129,28,FEMALE,Maintenance,Coordinator,8.5,night,2023-12-04,Fall,Minor,12,No,Yes,1.0,Lack of Training,Barranquilla,2.2
+1254,29,FEMALE,Quality,Technician,14.0,day,2023-01-02,Struck By Object,Severe,4,Yes,No,4.0,Human Error,Barranquilla,12.3
+1054,50,FEMALE,Production,Coordinator,16.1,night,2023-06-01,Chemical Exposure,Minor,9,Yes,Yes,2.0,PPE Non-Compliance,Cartagena,6.3
+1163,33,MALE,Quality,Operator,24.9,day,2024-12-06,Chemical Exposure,Minor,7,Yes,Yes,8.0,PPE Non-Compliance,Medellín,8.9
+1195,34,MALE,Logistics,Analyst,7.7,night,2023-05-15,Struck By Object,Minor,21,Yes,Yes,6.0,Lack of Training,Medellín,12.3
+1051,120,MALE,Maintenance,Coordinator,15.8,day,2023-12-31,Ergonomic,Moderate,24,Yes,Yes,6.0,PPE Non-Compliance,Cartagena,12.8
+1035,34,MALE,Maintenance,Technician,24.9,day,2024-05-30,Slip,Minor,11,Yes,No,1.0,Human Error,Cartagena,9.2
+1181,48,MALE,Warehouse,Supervisor,24.1,night,2023-10-29,Fall,Severe,2,No,Yes,2.0,Lack of Training,Medellín,0.0
+1223,20,MALE,Maintenance,Operator,14.3,night,2025-03-03,Chemical Exposure,Minor,8,No,Yes,1.0,Lack of Training,Barranquilla,12.3
+1299,56,FEMALE,Production,Operator,7.3,night,2024-01-28,Slip,Moderate,9,No,Yes,9.0,Fatigue,Cali,14.1
+1173,37,MALE,Maintenance,Supervisor,16.2,night,2023-02-05,Chemical Exposure,Moderate,9,Yes,Yes,2.0,Unsafe Condition,Bogotá,13.4
+1215,39,MALE,Quality,Technician,8.2,day,2025-03-10,Cut,Minor,5,Yes,Yes,5.0,Unsafe Condition,Medellín,12.3
+1053,22,FEMALE,Warehouse,Analyst,11.4,day,2023-09-21,Slip,Moderate,5,Yes,Yes,2.0,Fatigue,Barranquilla,1.7
+1106,47,MALE,Operations,Coordinator,1.0,night,2024-09-27,Slip,Minor,17,Yes,Yes,7.0,Human Error,Bogotá,8.5
+1129,18,MALE,Operations,Operator,11.1,night,2023-05-07,Fall,Minor,9,Yes,Yes,5.0,Lack of Training,Medellín,16.6
+1247,20,MALE,Warehouse,Technician,6.2,day,2025-02-28,Ergonomic,Minor,6,Yes,Yes,6.0,Unsafe Condition,Bogotá,27.0
+1289,47,MALE,Maintenance,Coordinator,16.2,night,2024-09-03,Struck By Object,Minor,8,Yes,Yes,8.0,Fatigue,Cali,18.0
+1247,19,FEMALE,Maintenance,Operator,0.7,day,2023-12-02,Ergonomic,Moderate,8,Yes,Yes,1.0,Unsafe Condition,Medellín,17.3
+1101,29,FEMALE,Production,Analyst,9.7,day,2024-11-21,Fall,Severe,5,Yes,No,10.0,Lack of Training,Barranquilla,13.7
+1115,58,FEMALE,Quality,Supervisor,12.4,day,2024-02-22,Slip,Moderate,11,Yes,Yes,9.0,Fatigue,Bogotá,10.5
+1192,52,MALE,Production,Technician,24.8,night,2024-11-06,Slip,Minor,15,Yes,No,5.0,PPE Non-Compliance,Cali,7.3
+1183,30,FEMALE,Operations,Analyst,18.5,night,2025-02-18,Fall,Minor,11,Yes,Yes,3.0,Lack of Training,Cartagena,0.0
+1100,29,MALE,Operations,Technician,24.0,night,2023-06-26,Struck By Object,Moderate,10,Yes,Yes,10.0,Unsafe Condition,Cali,11.0
+1144,22,FEMALE,Production,Operator,7.3,night,2024-01-02,Struck By Object,Minor,14,No,Yes,5.0,Lack of Training,Cali,18.3
+1186,56,MALE,Production,Supervisor,24.9,night,2023-02-11,Ergonomic,Minor,9,Yes,No,9.0,Human Error,Cali,12.3
+1253,55,FEMALE,Maintenance,Supervisor,2.1,night,2023-03-15,Fall,Moderate,5,Yes,No,1.0,Human Error,Cartagena,13.9
+1145,24,MALE,Quality,Supervisor,24.7,day,2023-12-08,Fall,Moderate,3,No,Yes,10.0,Human Error,Cali,12.3
+1019,56,MALE,Warehouse,Technician,10.9,day,2025-05-07,Chemical Exposure,Minor,16,Yes,Yes,9.0,Lack of Training,Bogotá,12.3
+1190,42,MALE,Warehouse,Operator,21.7,day,2023-01-01,Slip,Minor,8,No,Yes,3.0,Unsafe Condition,Barranquilla,12.3
+1020,35,MALE,Maintenance,Coordinator,4.2,night,2024-10-20,Fall,Minor,2,Yes,No,10.0,Human Error,Barranquilla,24.2
+1272,25,FEMALE,Quality,Coordinator,9.9,night,2025-01-05,Chemical Exposure,Minor,2,Yes,Yes,2.0,PPE Non-Compliance,Medellín,8.1
+1220,54,FEMALE,Quality,Supervisor,24.4,night,2024-06-23,Cut,Severe,10,Yes,No,3.0,Unsafe Condition,Bogotá,27.0
+1082,22,FEMALE,Quality,Supervisor,15.3,night,2023-09-10,Cut,Minor,15,No,Yes,5.0,Lack of Training,Barranquilla,8.2
+1063,42,FEMALE,Warehouse,Coordinator,24.2,day,2023-10-09,Fall,Moderate,7,Yes,Yes,7.0,Human Error,Bogotá,21.9
+1197,48,MALE,Logistics,Technician,18.7,day,2024-06-01,Fall,Severe,17,No,Yes,5.0,Fatigue,Medellín,16.8
+1001,30,MALE,Maintenance,Analyst,5.2,night,2023-03-19,Ergonomic,Severe,0,No,Yes,1.0,PPE Non-Compliance,Cartagena,9.9
+1236,22,FEMALE,Warehouse,Operator,2.2,day,2023-02-23,Chemical Exposure,Moderate,4,Yes,Yes,2.0,PPE Non-Compliance,Barranquilla,32.3
+1103,55,FEMALE,Logistics,Operator,15.4,day,2023-03-16,Ergonomic,Severe,17,Yes,Yes,2.0,Human Error,Bogotá,22.2
+1249,55,MALE,Logistics,Coordinator,11.3,night,2023-11-04,Ergonomic,Severe,9,Yes,Yes,10.0,PPE Non-Compliance,Bogotá,0.0
+1273,37,FEMALE,Quality,Supervisor,11.5,night,2023-07-03,Struck By Object,Severe,0,Yes,Unknown,3.0,PPE Non-Compliance,Barranquilla,11.3
+1249,40,MALE,Quality,Analyst,3.2,day,2023-04-21,Fall,Minor,10,Yes,Yes,3.0,Lack of Training,Medellín,4.5
+1195,44,FEMALE,Quality,Supervisor,16.7,night,2025-05-13,Ergonomic,Minor,4,Yes,Yes,1.0,Unsafe Condition,Cartagena,5.7
+1233,29,FEMALE,Production,Coordinator,5.2,day,2024-10-06,Fall,Minor,19,Yes,Yes,9.0,Lack of Training,Bogotá,12.3
+1239,47,MALE,Operations,Supervisor,3.9,night,2023-08-02,Chemical Exposure,Minor,9,No,Yes,8.0,Fatigue,Cali,5.8
+1014,43,FEMALE,Operations,Supervisor,19.0,day,2032-01-07,Fall,Minor,6,Yes,Yes,3.0,PPE Non-Compliance,Bogotá,13.0
+1238,60,FEMALE,Maintenance,Operator,13.3,day,2024-09-14,Chemical Exposure,Minor,17,Yes,Yes,5.0,Unsafe Condition,Cartagena,0.0
+1202,56,FEMALE,Maintenance,Technician,8.1,night,2023-01-28,Slip,Minor,3,No,Yes,4.0,Unsafe Condition,Barranquilla,9.2
+1067,58,FEMALE,Quality,Supervisor,12.5,night,2024-01-29,Ergonomic,Minor,22,Yes,Yes,3.0,Fatigue,Medellín,20.1
+1101,23,FEMALE,Quality,Operator,22.5,night,2024-07-07,Fall,Moderate,7,Yes,No,5.0,Unsafe Condition,Bogotá,0.0
+1277,23,FEMALE,Production,Supervisor,9.1,day,2024-10-23,Slip,Minor,12,Yes,No,8.0,Fatigue,Barranquilla,13.2
+1194,32,FEMALE,Maintenance,Analyst,13.4,day,2024-07-27,Cut,Minor,5,No,Yes,4.0,Lack of Training,Medellín,16.0
+1020,29,MALE,Quality,Coordinator,2.9,night,2023-08-13,Ergonomic,Moderate,11,Yes,Yes,3.0,Human Error,Medellín,0.0
+1178,27,MALE,Operations,Supervisor,13.7,night,2024-11-03,Chemical Exposure,Minor,11,Yes,Yes,9.0,PPE Non-Compliance,Barranquilla,3.9
+1265,28,MALE,Warehouse,Analyst,11.8,day,2025-02-23,Ergonomic,Moderate,6,No,Yes,2.0,PPE Non-Compliance,Cali,13.3
+1137,51,MALE,Warehouse,Operator,4.5,night,2023-11-30,Chemical Exposure,Minor,10,No,Yes,9.0,Fatigue,Medellín,24.6
+1270,47,MALE,Quality,Analyst,20.6,day,2023-08-17,Chemical Exposure,Minor,11,No,Yes,10.0,Human Error,Bogotá,1.7
+1225,19,FEMALE,Operations,Supervisor,13.6,night,2023-05-25,Cut,Severe,2,No,Yes,8.0,Unsafe Condition,Medellín,14.3
+1015,46,FEMALE,Quality,Supervisor,12.4,night,2024-07-07,Slip,Moderate,12,No,Yes,4.0,Fatigue,Cali,20.1
+1010,22,FEMALE,Production,Technician,21.9,night,2024-08-20,Chemical Exposure,Minor,15,Yes,Yes,2.0,PPE Non-Compliance,Cali,8.4
+1095,53,MALE,Operations,Supervisor,13.6,day,2024-02-15,Slip,Minor,1,No,Yes,8.0,Unsafe Condition,Cartagena,7.9
+1218,30,MALE,Quality,Supervisor,3.5,night,2023-01-23,Struck By Object,Minor,13,Yes,Yes,4.0,Unsafe Condition,Bogotá,4.5
+1293,25,MALE,Production,Technician,16.3,day,2023-05-13,Fall,Moderate,4,Yes,Yes,9.0,PPE Non-Compliance,Cartagena,10.5
+1267,40,FEMALE,Quality,Coordinator,3.1,day,2024-12-26,Fall,Minor,5,No,Yes,6.0,Fatigue,Medellín,8.6
+1149,26,FEMALE,Maintenance,Technician,18.6,day,2024-07-20,Fall,Minor,10,Yes,Yes,10.0,Fatigue,Cali,22.6
+1294,19,MALE,Operations,Analyst,11.6,night,2023-03-16,Ergonomic,Minor,8,Yes,No,6.0,Human Error,Bogotá,18.2
+1025,24,FEMALE,Quality,Analyst,4.1,night,2024-10-25,Struck By Object,Minor,14,Yes,Yes,2.0,Fatigue,Bogotá,6.4
+1049,24,FEMALE,Quality,Operator,24.4,day,2024-04-13,Struck By Object,Minor,14,Yes,Yes,7.0,Fatigue,Bogotá,13.4
+1224,30,FEMALE,Warehouse,Analyst,9.9,day,2025-02-07,Chemical Exposure,Minor,4,Yes,Yes,8.0,Fatigue,Barranquilla,21.0
+1018,18,FEMALE,Maintenance,Analyst,19.4,day,2023-01-19,Chemical Exposure,Minor,0,Yes,Yes,4.0,Human Error,Cartagena,20.7
+1264,46,MALE,Production,Coordinator,1.9,night,2025-06-15,Chemical Exposure,Moderate,11,Yes,No,7.0,Unsafe Condition,Cartagena,9.6
+1288,24,FEMALE,Maintenance,Analyst,16.5,night,2024-04-20,Cut,Minor,3,Yes,Yes,6.0,Fatigue,Medellín,6.2
+1239,54,MALE,Production,Technician,4.5,day,2025-01-30,Struck By Object,Moderate,5,Yes,Yes,8.0,Lack of Training,Medellín,10.2
+1165,38,FEMALE,Logistics,Supervisor,10.2,day,2025-03-24,Chemical Exposure,Minor,9,Yes,No,3.0,Lack of Training,Bogotá,6.3
+1285,35,FEMALE,Maintenance,Analyst,22.3,day,2024-07-01,Slip,Moderate,0,Yes,Yes,4.0,Fatigue,Barranquilla,5.5
+1158,40,FEMALE,Production,Analyst,20.0,night,2024-12-14,Ergonomic,Minor,20,Yes,Yes,4.0,Lack of Training,Cartagena,17.4
+1029,51,FEMALE,Production,Operator,6.8,day,2024-10-27,Cut,Minor,0,Yes,Yes,10.0,Unsafe Condition,Cali,16.4
+1087,59,MALE,Quality,Coordinator,3.5,night,2024-08-10,Slip,Minor,13,Yes,Yes,5.0,Unsafe Condition,Bogotá,4.7
+1173,34,MALE,Production,Analyst,10.5,day,2024-03-30,Struck By Object,Minor,4,Yes,Yes,3.0,PPE Non-Compliance,Cali,12.2
+1292,43,FEMALE,Maintenance,Analyst,1.7,night,2024-11-23,Chemical Exposure,Moderate,12,Yes,Yes,6.0,Human Error,Barranquilla,11.0
+1055,41,FEMALE,Warehouse,Coordinator,23.4,day,2023-04-08,Fall,Moderate,11,Yes,Yes,2.0,Lack of Training,Cali,0.0
+1154,19,FEMALE,Production,Technician,2.7,day,2023-07-20,Cut,Minor,7,Yes,Yes,7.0,Unsafe Condition,Medellín,26.2
+1131,54,FEMALE,Production,Supervisor,0.1,day,2025-03-13,Struck By Object,Severe,13,No,Yes,6.0,PPE Non-Compliance,Cali,7.2
+1012,33,MALE,Operations,Analyst,21.8,day,2025-04-02,Ergonomic,Moderate,11,Yes,No,9.0,Human Error,Barranquilla,20.6
+1089,29,MALE,Maintenance,Operator,5.5,day,2024-04-10,Fall,Severe,10,Yes,Unknown,10.0,Lack of Training,Bogotá,13.7
+1270,32,FEMALE,Operations,Coordinator,17.4,night,2024-01-26,Slip,Minor,7,No,No,6.0,Fatigue,Cali,17.5
+1103,34,FEMALE,Operations,Coordinator,16.3,night,2024-03-18,Struck By Object,Minor,2,No,Yes,10.0,PPE Non-Compliance,Medellín,12.3
+1039,32,FEMALE,Warehouse,Coordinator,20.1,day,2023-07-02,Ergonomic,Minor,15,Yes,Yes,2.0,Lack of Training,Bogotá,18.7
+1227,59,MALE,Operations,Coordinator,24.8,day,2023-11-07,Cut,Minor,5,No,Yes,4.0,Human Error,Cali,2.5
+1245,33,FEMALE,Quality,Technician,21.8,day,2023-01-29,Chemical Exposure,Severe,5,Yes,Yes,1.0,Fatigue,Barranquilla,23.6
+1142,47,FEMALE,Logistics,Coordinator,21.3,day,2023-01-03,Chemical Exposure,Moderate,0,No,Unknown,1.0,Lack of Training,Medellín,17.1
+1140,54,MALE,Production,Supervisor,19.7,day,2025-06-07,Chemical Exposure,Minor,13,No,Yes,2.0,PPE Non-Compliance,Barranquilla,10.3
+1199,21,FEMALE,Production,Operator,5.8,night,2023-06-02,Cut,Severe,15,Yes,Yes,2.0,Unsafe Condition,Bogotá,25.0
+1218,58,FEMALE,Maintenance,Coordinator,4.7,day,2025-04-04,Cut,Moderate,5,No,No,3.0,Human Error,Cartagena,10.7
+1241,59,FEMALE,Production,Analyst,12.9,day,2023-01-20,Chemical Exposure,Minor,21,Yes,Yes,4.0,PPE Non-Compliance,Medellín,6.7
+1098,28,FEMALE,Operations,Supervisor,21.9,night,2023-12-23,Slip,Minor,11,Yes,Yes,8.0,Unsafe Condition,Cartagena,20.7
+1038,25,MALE,Quality,Analyst,17.4,day,2023-05-04,Fall,Minor,11,Yes,No,1.0,Unsafe Condition,Medellín,12.3
+1040,49,FEMALE,Production,Technician,12.9,day,2023-04-24,Cut,Severe,19,Yes,No,1.0,PPE Non-Compliance,Medellín,18.6
+1216,36,MALE,Quality,Supervisor,21.7,night,2023-09-19,Fall,Minor,6,Yes,Unknown,5.0,Human Error,Bogotá,12.3
+1191,44,MALE,Maintenance,Analyst,18.8,night,2023-06-19,Chemical Exposure,Minor,5,Yes,Yes,6.0,Fatigue,Cali,5.3
+1206,30,FEMALE,Quality,Analyst,12.7,night,2023-09-15,Fall,Minor,12,No,Yes,2.0,Lack of Training,Medellín,0.1
+1163,23,FEMALE,Production,Technician,7.1,night,2024-11-30,Ergonomic,Minor,15,Yes,Yes,5.0,Human Error,Medellín,10.1
+1120,35,MALE,Quality,Analyst,21.8,day,2023-01-22,Cut,Severe,10,Yes,Yes,6.0,PPE Non-Compliance,Bogotá,7.8
+1079,49,MALE,Quality,Technician,19.3,day,2025-05-28,Fall,Moderate,0,No,Yes,9.0,Human Error,Bogotá,8.7
+1271,46,FEMALE,Maintenance,Analyst,17.3,day,2023-02-08,Ergonomic,Minor,9,Yes,Yes,1.0,Human Error,Cartagena,7.5
+1236,45,MALE,Logistics,Operator,18.3,night,2024-01-17,Cut,Severe,5,Yes,Unknown,6.0,Fatigue,Medellín,24.4
+1162,52,FEMALE,Logistics,Operator,0.8,day,2024-06-10,Chemical Exposure,Moderate,13,Yes,Unknown,9.0,Fatigue,Medellín,9.3
+1093,25,MALE,Operations,Coordinator,19.3,day,2024-10-18,Ergonomic,Moderate,11,Yes,Yes,10.0,Fatigue,Cali,22.6
+1046,32,MALE,Operations,Coordinator,12.0,day,2025-06-17,Struck By Object,Minor,10,Yes,Yes,9.0,Unsafe Condition,Cali,5.9
+1214,19,MALE,Maintenance,Operator,19.9,day,2025-04-10,Struck By Object,Minor,6,Yes,Yes,6.0,Lack of Training,Barranquilla,11.8
+1011,42,FEMALE,Production,Operator,21.5,night,2024-06-27,Ergonomic,Moderate,7,Yes,Yes,9.0,Lack of Training,Bogotá,7.4
+1160,32,FEMALE,Warehouse,Supervisor,12.5,day,2023-02-15,Slip,Moderate,11,Yes,Yes,2.0,Lack of Training,Cartagena,26.3
+1289,58,FEMALE,Warehouse,Coordinator,8.8,night,2023-08-13,Slip,Minor,6,Yes,Yes,10.0,Human Error,Cali,6.1
+1106,57,FEMALE,Production,Supervisor,15.9,night,2023-05-23,Struck By Object,Moderate,8,Yes,No,2.0,PPE Non-Compliance,Cartagena,6.8
+1084,24,MALE,Operations,Coordinator,16.5,day,2025-05-09,Fall,Moderate,16,Yes,Yes,10.0,Fatigue,Bogotá,15.7
+1012,40,MALE,Quality,Operator,16.3,night,2023-01-14,Slip,Minor,0,Yes,Yes,7.0,Fatigue,Cartagena,20.4
+1183,49,MALE,Maintenance,Operator,12.5,night,2032-01-08,Struck By Object,Moderate,2,No,No,3.0,Human Error,Cali,18.0
+1243,52,MALE,Operations,Technician,5.5,day,2024-12-14,Ergonomic,Minor,10,Yes,No,10.0,PPE Non-Compliance,Cali,8.6
+1228,19,FEMALE,Operations,Coordinator,14.9,night,2023-04-27,Ergonomic,Moderate,2,Yes,Yes,5.0,Fatigue,Medellín,12.3
+1282,25,MALE,Operations,Operator,10.1,night,2025-01-06,Cut,Moderate,0,Yes,Yes,6.0,Human Error,Cartagena,23.6
+1111,31,MALE,Production,Operator,12.9,night,2024-07-06,Ergonomic,Minor,1,Yes,No,2.0,PPE Non-Compliance,Cali,14.6
+1229,22,MALE,Warehouse,Coordinator,8.1,night,2023-06-12,Struck By Object,Moderate,0,Yes,Yes,10.0,Lack of Training,Cartagena,12.3
+1266,29,MALE,Production,Supervisor,20.7,night,2024-08-27,Cut,Minor,11,Yes,Yes,4.0,Lack of Training,Barranquilla,0.9
+1121,60,FEMALE,Quality,Coordinator,18.4,night,2023-10-11,Fall,Moderate,15,No,Yes,6.0,PPE Non-Compliance,Cartagena,11.3
+1251,37,MALE,Maintenance,Analyst,6.7,night,2024-09-11,Ergonomic,Minor,12,Yes,Yes,6.0,Unsafe Condition,Medellín,12.4
+1245,22,FEMALE,Warehouse,Analyst,2.6,day,2024-04-29,Struck By Object,Moderate,2,Yes,Yes,2.0,Lack of Training,Cali,24.9
+1285,56,MALE,Production,Supervisor,11.4,day,2023-08-05,Ergonomic,Minor,20,Yes,Yes,4.0,Lack of Training,Bogotá,10.9
+1234,25,MALE,Production,Analyst,24.2,day,2023-12-02,Ergonomic,Minor,4,No,Yes,2.0,Unsafe Condition,Cartagena,27.3
+1119,43,MALE,Production,Operator,9.4,day,2023-07-12,Cut,Minor,12,No,Yes,8.0,PPE Non-Compliance,Barranquilla,7.9
+1289,18,FEMALE,Warehouse,Operator,5.4,day,2023-12-11,Chemical Exposure,Moderate,17,Yes,Unknown,2.0,Unsafe Condition,Cali,2.8
+1063,26,MALE,Maintenance,Coordinator,21.7,day,2024-12-04,Chemical Exposure,Severe,5,Yes,Yes,2.0,Unsafe Condition,Cali,13.6
+1102,21,MALE,Maintenance,Supervisor,16.7,night,2024-01-16,Slip,Moderate,12,Yes,No,8.0,PPE Non-Compliance,Cali,17.1
+1089,38,FEMALE,Production,Operator,8.1,day,2025-04-01,Ergonomic,Minor,17,Yes,Yes,1.0,Human Error,Bogotá,5.2
+1291,55,FEMALE,Maintenance,Supervisor,1.8,night,2025-01-05,Fall,Moderate,14,Yes,Yes,10.0,Human Error,Cali,24.3
+1117,46,MALE,Maintenance,Operator,8.5,night,2023-11-24,Fall,Minor,16,Yes,Yes,7.0,Fatigue,Cali,0.0
+1021,40,FEMALE,Logistics,Coordinator,10.8,day,2023-11-22,Cut,Severe,0,Yes,Yes,3.0,Unsafe Condition,Cali,24.2
+1052,44,FEMALE,Maintenance,Analyst,23.2,night,2025-03-12,Slip,Minor,3,Yes,Yes,4.0,Unsafe Condition,Bogotá,13.3
+1263,48,MALE,Warehouse,Technician,21.5,day,2023-03-31,Cut,Moderate,4,No,Yes,8.0,Unsafe Condition,Medellín,4.8
+1084,21,MALE,Logistics,Operator,2.2,day,2023-02-05,Ergonomic,Moderate,10,Yes,Yes,6.0,PPE Non-Compliance,Cartagena,0.0
+1277,39,MALE,Quality,Analyst,14.8,night,2023-04-28,Struck By Object,Moderate,1,Yes,No,8.0,Human Error,Cali,15.8
+1049,43,MALE,Logistics,Coordinator,6.4,night,2024-12-20,Struck By Object,Minor,12,Yes,No,3.0,Unsafe Condition,Medellín,15.7
+1242,22,FEMALE,Quality,Technician,4.2,night,2024-11-06,Struck By Object,Moderate,5,Yes,Yes,6.0,Fatigue,Cali,15.6
+1160,28,MALE,Logistics,Analyst,5.8,day,2024-03-30,Struck By Object,Minor,7,No,Yes,5.0,Unsafe Condition,Bogotá,32.6
+1042,56,FEMALE,Operations,Technician,18.1,night,2024-10-19,Chemical Exposure,Minor,14,Yes,Yes,7.0,PPE Non-Compliance,Barranquilla,7.8
+1036,57,FEMALE,Operations,Coordinator,16.1,night,2024-09-12,Fall,Moderate,0,Yes,Yes,1.0,Fatigue,Cali,2.0
+1130,22,FEMALE,Maintenance,Operator,1.7,night,2025-04-07,Cut,Moderate,11,Yes,Yes,10.0,PPE Non-Compliance,Cartagena,0.0
+1130,40,FEMALE,Production,Operator,9.5,day,2023-09-16,Ergonomic,Minor,7,Yes,Unknown,10.0,Human Error,Cali,12.9
+1287,95,MALE,Quality,Analyst,10.2,night,2024-07-01,Fall,Minor,0,Yes,No,6.0,Human Error,Barranquilla,8.0
+1248,18,FEMALE,Quality,Supervisor,21.1,night,2024-05-31,Ergonomic,Minor,3,No,Yes,6.0,Lack of Training,Cali,13.8
+1226,31,MALE,Quality,Operator,2.9,night,2024-05-14,Slip,Minor,1,Yes,Yes,1.0,PPE Non-Compliance,Barranquilla,0.0
+1180,40,MALE,Logistics,Operator,23.6,day,2025-04-22,Cut,Severe,10,Yes,Yes,4.0,PPE Non-Compliance,Cali,7.8
+1012,59,FEMALE,Maintenance,Coordinator,13.5,night,2024-05-04,Chemical Exposure,Moderate,10,Yes,Unknown,7.0,Fatigue,Bogotá,28.0
+1073,32,FEMALE,Operations,Coordinator,10.1,night,2024-06-09,Chemical Exposure,Minor,1,No,Yes,9.0,Fatigue,Cali,22.5
+1253,50,MALE,Maintenance,Technician,23.1,night,2025-03-03,Ergonomic,Minor,16,Yes,Yes,9.0,PPE Non-Compliance,Cali,16.5
+1141,51,MALE,Quality,Operator,1.7,night,2023-01-25,Cut,Minor,11,Yes,Yes,4.0,Human Error,Bogotá,12.4
+1160,46,MALE,Production,Supervisor,0.4,night,2024-10-19,Cut,Moderate,0,Yes,Yes,9.0,Unsafe Condition,Medellín,0.0
+1267,48,FEMALE,Logistics,Technician,17.4,night,2024-10-03,Struck By Object,Severe,4,Yes,Yes,3.0,Lack of Training,Bogotá,8.7
+1080,33,FEMALE,Warehouse,Supervisor,1.6,night,2023-09-20,Cut,Minor,0,Yes,Yes,7.0,PPE Non-Compliance,Barranquilla,19.3
+1063,54,FEMALE,Production,Supervisor,22.2,day,2024-11-20,Chemical Exposure,Minor,4,Yes,No,5.0,Lack of Training,Cartagena,2.6
+1133,19,FEMALE,Production,Supervisor,3.3,night,2024-08-20,Chemical Exposure,Minor,10,Yes,Yes,5.0,PPE Non-Compliance,Bogotá,22.9
+1013,38,FEMALE,Maintenance,Coordinator,20.9,day,2023-03-06,Ergonomic,Moderate,7,Yes,Yes,5.0,Fatigue,Barranquilla,8.5
+1256,43,FEMALE,Quality,Operator,3.2,day,2023-11-04,Struck By Object,Severe,12,No,Unknown,6.0,Lack of Training,Cartagena,2.1
+1021,59,MALE,Quality,Technician,22.3,day,2024-07-07,Cut,Severe,3,Yes,Yes,1.0,PPE Non-Compliance,Cali,20.3
+1242,57,FEMALE,Maintenance,Technician,11.5,night,2023-01-10,Cut,Moderate,12,Yes,Yes,7.0,Human Error,Cartagena,14.4
+1173,36,MALE,Maintenance,Supervisor,2.6,night,2025-05-05,Cut,Severe,4,Yes,Yes,1.0,PPE Non-Compliance,Barranquilla,11.4
+1152,34,FEMALE,Operations,Technician,23.9,night,2024-09-12,Ergonomic,Moderate,0,Yes,Yes,7.0,Unsafe Condition,Cartagena,4.2
+1028,60,MALE,Operations,Analyst,10.3,day,2024-05-13,Cut,Minor,3,Yes,No,8.0,Human Error,Barranquilla,10.8
+1049,53,FEMALE,Logistics,Supervisor,15.4,night,2025-02-06,Struck By Object,Moderate,10,Yes,No,5.0,PPE Non-Compliance,Barranquilla,29.3
+1140,44,FEMALE,Maintenance,Analyst,24.5,day,2024-11-06,Chemical Exposure,Moderate,17,No,Yes,10.0,Human Error,Medellín,16.1
+1273,57,MALE,Maintenance,Operator,15.0,day,2025-02-21,Struck By Object,Minor,13,Yes,Yes,4.0,PPE Non-Compliance,Cali,0.0
+1213,49,MALE,Maintenance,Operator,12.4,day,2024-02-18,Cut,Minor,12,Yes,Yes,5.0,Unsafe Condition,Barranquilla,9.1
+1149,25,MALE,Maintenance,Coordinator,18.7,night,2024-02-01,Struck By Object,Moderate,14,Yes,Yes,2.0,Unsafe Condition,Medellín,5.6
+1029,38,FEMALE,Quality,Coordinator,18.1,night,2025-02-08,Chemical Exposure,Moderate,8,No,Yes,6.0,Fatigue,Cali,0.1
+1184,20,FEMALE,Operations,Analyst,7.4,night,2024-12-01,Struck By Object,Moderate,12,Yes,Yes,8.0,PPE Non-Compliance,Barranquilla,15.0
+1186,33,FEMALE,Logistics,Technician,20.3,night,2023-12-28,Struck By Object,Moderate,5,Yes,No,2.0,Fatigue,Medellín,16.9
+1090,29,FEMALE,Logistics,Technician,18.6,day,2023-08-22,Struck By Object,Minor,7,Yes,Yes,7.0,Lack of Training,Bogotá,15.4
+1211,54,FEMALE,Quality,Coordinator,3.1,day,2023-03-11,Fall,Minor,15,Yes,Yes,6.0,PPE Non-Compliance,Bogotá,17.0
+1202,55,FEMALE,Warehouse,Technician,4.2,day,2024-04-13,Chemical Exposure,Minor,0,No,Yes,3.0,Fatigue,Cartagena,0.0
+1229,33,FEMALE,Maintenance,Supervisor,5.6,night,2024-12-28,Chemical Exposure,Moderate,7,Yes,Yes,6.0,Lack of Training,Medellín,12.3
+1211,39,FEMALE,Maintenance,Coordinator,17.4,day,2025-03-27,Slip,Moderate,8,Yes,Yes,1.0,Lack of Training,Barranquilla,22.5
+1146,45,FEMALE,Operations,Supervisor,18.4,night,2023-07-02,Chemical Exposure,Severe,9,Yes,Yes,6.0,PPE Non-Compliance,Barranquilla,16.6
+1078,28,FEMALE,Logistics,Operator,18.5,night,2024-07-12,Ergonomic,Severe,9,No,Unknown,1.0,Unsafe Condition,Cartagena,1.0
+1254,23,MALE,Quality,Operator,13.0,night,2025-05-11,Struck By Object,Minor,14,No,Yes,1.0,PPE Non-Compliance,Cartagena,10.4
+1192,22,MALE,Operations,Analyst,17.7,night,2023-03-15,Slip,Moderate,8,Yes,Yes,9.0,Human Error,Barranquilla,13.2
+1084,41,FEMALE,Quality,Coordinator,11.8,day,2024-06-26,Struck By Object,Minor,13,No,Yes,10.0,Lack of Training,Barranquilla,6.5
+1205,23,FEMALE,Production,Analyst,1.6,day,2024-12-29,Fall,Minor,0,Yes,No,2.0,Unsafe Condition,Cali,19.1
+1248,28,MALE,Operations,Supervisor,24.1,night,2024-11-02,Slip,Moderate,0,Yes,No,2.0,Lack of Training,Bogotá,7.8
+1131,40,MALE,Warehouse,Coordinator,5.0,night,2024-08-03,Ergonomic,Moderate,10,Yes,Yes,9.0,PPE Non-Compliance,Cali,12.3
+1178,21,MALE,Warehouse,Supervisor,10.4,night,2023-06-10,Chemical Exposure,Minor,10,No,Yes,10.0,Human Error,Cali,27.3
+1169,56,MALE,Quality,Operator,17.7,day,2023-02-12,Ergonomic,Minor,7,Yes,Yes,2.0,Human Error,Bogotá,5.4
+1112,19,FEMALE,Production,Technician,2.4,night,2023-01-22,Cut,Severe,17,Yes,Yes,6.0,Unsafe Condition,Cali,12.3
+1138,52,FEMALE,Quality,Operator,1.3,day,2024-07-24,Struck By Object,Moderate,4,Yes,Yes,4.0,PPE Non-Compliance,Medellín,5.6
+1143,57,MALE,Maintenance,Analyst,21.9,day,2023-08-02,Fall,Severe,5,Yes,No,10.0,Lack of Training,Barranquilla,16.1
+1066,42,FEMALE,Operations,Supervisor,2.4,night,2025-05-30,Chemical Exposure,Minor,3,No,Yes,7.0,Lack of Training,Cartagena,0.0
+1178,60,MALE,Warehouse,Supervisor,19.4,day,2024-08-23,Fall,Severe,8,Yes,Yes,4.0,Unsafe Condition,Medellín,0.5
+1085,25,FEMALE,Production,Operator,19.9,day,2024-04-29,Chemical Exposure,Minor,8,Yes,Yes,2.0,PPE Non-Compliance,Medellín,12.3
+1259,44,MALE,Warehouse,Coordinator,6.9,night,2025-02-13,Slip,Severe,5,Yes,No,5.0,Unsafe Condition,Bogotá,8.8
+1246,36,MALE,Logistics,Coordinator,22.1,day,2023-09-17,Fall,Moderate,11,Yes,No,5.0,PPE Non-Compliance,Cartagena,12.0
+1269,51,FEMALE,Production,Coordinator,4.1,night,2024-10-31,Chemical Exposure,Severe,0,Yes,Yes,1.0,Human Error,Barranquilla,10.0
+1281,37,MALE,Quality,Supervisor,22.3,day,2023-07-15,Slip,Minor,3,No,No,2.0,PPE Non-Compliance,Medellín,16.8
+1211,28,MALE,Logistics,Operator,22.5,night,2024-10-07,Slip,Moderate,1,No,Unknown,10.0,Human Error,Cali,5.3
+1156,43,MALE,Maintenance,Operator,2.5,day,2023-10-04,Ergonomic,Minor,5,Yes,Yes,9.0,Human Error,Bogotá,4.6
+1176,39,FEMALE,Production,Analyst,18.5,day,2023-10-06,Slip,Moderate,5,Yes,Yes,2.0,PPE Non-Compliance,Medellín,17.3
+1248,45,FEMALE,Logistics,Coordinator,17.0,night,2023-03-07,Fall,Minor,13,Yes,Yes,5.0,Lack of Training,Bogotá,9.0
+1117,31,FEMALE,Warehouse,Operator,22.6,day,2023-08-15,Fall,Minor,9,No,Yes,2.0,PPE Non-Compliance,Cali,12.3
+1046,55,FEMALE,Production,Analyst,5.7,night,2025-06-06,Struck By Object,Minor,6,No,Yes,1.0,Unsafe Condition,Medellín,3.9
+1270,43,FEMALE,Warehouse,Operator,24.2,day,2023-10-08,Struck By Object,Minor,11,No,No,9.0,Lack of Training,Medellín,19.1
+1124,36,FEMALE,Quality,Coordinator,21.8,night,2025-02-01,Chemical Exposure,Minor,10,Yes,Unknown,1.0,PPE Non-Compliance,Barranquilla,26.7
+1089,31,FEMALE,Production,Coordinator,15.0,night,2024-01-11,Fall,Minor,14,Yes,No,8.0,Fatigue,Medellín,12.3
+1125,39,FEMALE,Maintenance,Supervisor,22.3,day,2024-05-28,Cut,Minor,7,No,Yes,3.0,Lack of Training,Barranquilla,10.6
+1064,38,FEMALE,Quality,Analyst,13.0,night,2025-02-17,Slip,Minor,10,Yes,Yes,9.0,Unsafe Condition,Cartagena,21.3
+1035,34,FEMALE,Maintenance,Coordinator,1.6,night,2023-11-20,Ergonomic,Severe,1,Yes,Yes,6.0,PPE Non-Compliance,Barranquilla,11.1
+1021,55,FEMALE,Quality,Operator,14.8,night,2023-08-20,Fall,Moderate,8,Yes,Yes,3.0,Unsafe Condition,Barranquilla,0.0
+1194,41,MALE,Warehouse,Analyst,15.0,night,2025-05-03,Struck By Object,Moderate,21,Yes,Yes,6.0,Unsafe Condition,Medellín,12.9
+1268,23,MALE,Production,Operator,1.1,day,2024-07-26,Slip,Minor,6,Yes,Yes,4.0,Human Error,Cali,0.0
+1177,30,FEMALE,Logistics,Operator,13.4,night,2025-04-03,Fall,Severe,5,Yes,Yes,10.0,Fatigue,Cali,18.2
+1233,26,MALE,Production,Coordinator,20.4,day,2023-12-29,Struck By Object,Minor,8,No,Yes,7.0,PPE Non-Compliance,Medellín,22.6
+1192,28,FEMALE,Logistics,Technician,1.1,day,2024-02-01,Chemical Exposure,Minor,16,No,Yes,1.0,Lack of Training,Cartagena,6.3
+1090,56,MALE,Maintenance,Supervisor,23.9,day,2023-10-28,Ergonomic,Moderate,12,Yes,No,2.0,Fatigue,Bogotá,16.3
+1161,53,MALE,Maintenance,Supervisor,9.2,night,2023-11-20,Slip,Minor,17,Yes,Yes,9.0,Human Error,Bogotá,8.1
+1285,58,FEMALE,Operations,Technician,16.2,day,2025-02-08,Struck By Object,Severe,8,Yes,Yes,7.0,Unsafe Condition,Cartagena,32.4
+1259,37,MALE,Production,Coordinator,15.9,day,2024-06-23,Ergonomic,Moderate,15,No,No,9.0,Human Error,Medellín,12.9
+1235,18,FEMALE,Logistics,Technician,2.1,night,2023-09-25,Fall,Minor,6,No,Yes,5.0,Unsafe Condition,Cali,0.1
+1107,35,FEMALE,Logistics,Supervisor,10.1,night,2024-03-13,Fall,Minor,14,Yes,Yes,3.0,PPE Non-Compliance,Cartagena,13.1
+1156,32,MALE,Logistics,Analyst,19.0,night,2023-07-14,Fall,Minor,6,Yes,Yes,2.0,Lack of Training,Medellín,11.4
+1156,54,MALE,Operations,Operator,16.1,night,2024-03-15,Chemical Exposure,Minor,9,Yes,Yes,1.0,Human Error,Cali,0.0
+1294,22,FEMALE,Warehouse,Coordinator,13.3,day,2025-05-30,Fall,Moderate,17,Yes,Yes,2.0,Unsafe Condition,Cartagena,28.3
+1067,28,FEMALE,Maintenance,Supervisor,3.4,night,2025-04-16,Struck By Object,Minor,0,Yes,Yes,5.0,Human Error,Bogotá,0.4
+1122,54,MALE,Production,Operator,23.9,day,2024-06-25,Ergonomic,Minor,9,No,No,4.0,Lack of Training,Cartagena,19.2
+1224,39,FEMALE,Maintenance,Operator,13.5,night,2023-04-19,Ergonomic,Minor,18,No,No,3.0,Unsafe Condition,Cali,29.9
+1042,51,MALE,Warehouse,Coordinator,6.5,night,2025-06-17,Cut,Minor,6,Yes,No,7.0,PPE Non-Compliance,Medellín,8.2
+1092,41,FEMALE,Production,Supervisor,25.0,day,2025-04-15,Chemical Exposure,Minor,4,No,Yes,2.0,Lack of Training,Medellín,16.5
+1214,41,MALE,Logistics,Operator,15.5,night,2023-04-14,Ergonomic,Minor,5,Yes,Yes,3.0,Unsafe Condition,Medellín,11.2
+1091,51,MALE,Quality,Coordinator,18.1,night,2023-03-05,Cut,Minor,5,No,Yes,10.0,Lack of Training,Cartagena,14.2
+1070,34,FEMALE,Maintenance,Supervisor,23.7,day,2024-06-07,Ergonomic,Minor,9,Yes,Yes,4.0,Unsafe Condition,Bogotá,9.2
+1075,50,MALE,Quality,Operator,14.1,day,2023-04-12,Chemical Exposure,Minor,12,Yes,Yes,5.0,Unsafe Condition,Medellín,13.5
+1082,45,FEMALE,Quality,Coordinator,20.7,day,2024-12-31,Ergonomic,Moderate,11,Yes,Yes,4.0,Unsafe Condition,Cartagena,12.7
+1225,49,MALE,Operations,Supervisor,6.0,day,2025-04-28,Slip,Minor,13,No,Yes,3.0,Fatigue,Medellín,18.3
+1298,38,FEMALE,Maintenance,Technician,9.0,night,2024-07-19,Slip,Moderate,2,No,Unknown,3.0,Lack of Training,Medellín,6.5
+1264,43,MALE,Warehouse,Coordinator,20.7,day,2024-01-05,Chemical Exposure,Minor,11,Yes,Yes,5.0,Lack of Training,Medellín,17.7
+1128,26,MALE,Maintenance,Coordinator,19.2,night,2023-07-07,Slip,Moderate,3,Yes,Yes,4.0,Fatigue,Bogotá,13.7
+1075,52,FEMALE,Warehouse,Technician,13.7,day,2024-02-18,Struck By Object,Moderate,18,Yes,Yes,6.0,Lack of Training,Cali,17.4
+1066,57,MALE,Quality,Technician,2.8,night,2024-06-11,Chemical Exposure,Moderate,7,Yes,Yes,8.0,PPE Non-Compliance,Cali,0.0
+1290,56,FEMALE,Warehouse,Technician,10.0,day,2023-04-21,Struck By Object,Minor,5,Yes,Yes,7.0,Fatigue,Medellín,6.4
+1233,47,FEMALE,Warehouse,Analyst,24.5,night,2023-11-17,Cut,Moderate,16,Yes,No,7.0,Unsafe Condition,Cartagena,1.5
+1074,27,MALE,Production,Technician,20.5,night,2024-06-27,Chemical Exposure,Moderate,10,Yes,Yes,5.0,Fatigue,Medellín,29.7
+1022,47,MALE,Quality,Analyst,13.0,day,2024-02-12,Chemical Exposure,Minor,3,Yes,Yes,6.0,Lack of Training,Cartagena,19.1
+1127,28,MALE,Logistics,Operator,6.8,night,2025-01-29,Cut,Minor,12,Yes,No,8.0,Unsafe Condition,Cartagena,19.4
+1264,58,FEMALE,Production,Operator,8.5,night,2025-03-28,Struck By Object,Severe,6,Yes,No,4.0,PPE Non-Compliance,Barranquilla,13.2
+1141,36,FEMALE,Operations,Analyst,22.7,night,2024-09-03,Cut,Minor,7,Yes,Yes,6.0,Fatigue,Cali,27.9
+1023,38,MALE,Logistics,Technician,17.8,day,2023-06-24,Cut,Moderate,8,Yes,Yes,3.0,Lack of Training,Medellín,13.6
+1140,54,FEMALE,Maintenance,Operator,1.2,day,2024-12-23,Struck By Object,Minor,8,Yes,Yes,2.0,Fatigue,Cali,16.8
+1227,58,FEMALE,Warehouse,Operator,1.3,day,2025-02-06,Fall,Moderate,15,No,Yes,9.0,PPE Non-Compliance,Bogotá,9.4
+1100,40,FEMALE,Warehouse,Coordinator,15.2,night,2023-06-15,Struck By Object,Minor,10,Yes,Yes,5.0,Lack of Training,Medellín,4.8
+1065,53,FEMALE,Logistics,Operator,2.1,day,2024-06-23,Slip,Minor,14,No,Yes,5.0,Unsafe Condition,Cartagena,16.1
+1046,30,FEMALE,Operations,Operator,9.5,night,2024-08-08,Chemical Exposure,Minor,6,Yes,Yes,6.0,Human Error,Barranquilla,0.0
+1024,46,FEMALE,Warehouse,Coordinator,11.6,night,2025-06-02,Ergonomic,Severe,20,Yes,Yes,1.0,Fatigue,Medellín,13.7
+1092,29,FEMALE,Operations,Coordinator,3.1,day,2023-04-14,Slip,Minor,12,Yes,Yes,5.0,Human Error,Cali,16.7
+1033,24,FEMALE,Quality,Operator,8.7,night,2024-10-26,Cut,Minor,8,No,Yes,8.0,Lack of Training,Cartagena,12.4
+1217,25,MALE,Warehouse,Coordinator,5.2,night,2023-08-13,Fall,Minor,9,No,Yes,7.0,Unsafe Condition,Cali,16.5
+1004,43,MALE,Quality,Analyst,24.8,day,2023-08-06,Cut,Minor,20,Yes,Yes,6.0,Lack of Training,Medellín,15.5
+1017,43,MALE,Logistics,Technician,4.9,day,2023-08-21,Ergonomic,Minor,15,Yes,Yes,6.0,Lack of Training,Cartagena,16.5
+1068,48,FEMALE,Logistics,Technician,16.9,night,2024-03-31,Cut,Minor,11,Yes,Yes,9.0,Human Error,Medellín,10.1
+1242,43,FEMALE,Maintenance,Analyst,3.7,day,2024-11-16,Struck By Object,Minor,2,Yes,No,2.0,Fatigue,Bogotá,28.7
+1224,38,MALE,Quality,Analyst,24.1,day,2023-01-15,Cut,Moderate,0,Yes,Yes,6.0,Fatigue,Barranquilla,13.5
+1008,60,FEMALE,Operations,Supervisor,16.9,day,2023-04-03,Chemical Exposure,Minor,8,Yes,Yes,9.0,Unsafe Condition,Cartagena,13.5
+1068,52,FEMALE,Logistics,Operator,12.5,day,2023-09-29,Slip,Minor,8,Yes,Yes,2.0,PPE Non-Compliance,Medellín,17.0
+1154,23,MALE,Quality,Supervisor,4.8,day,2023-01-19,Fall,Moderate,8,No,Yes,6.0,PPE Non-Compliance,Cali,16.6
+1094,18,FEMALE,Quality,Analyst,11.5,night,2023-01-08,Cut,Moderate,9,No,Unknown,10.0,Fatigue,Cali,12.3
+1171,38,FEMALE,Production,Supervisor,5.6,night,2023-09-12,Cut,Minor,10,Yes,Yes,9.0,Lack of Training,Cali,17.7
+1094,52,MALE,Operations,Supervisor,1.4,day,2024-09-20,Cut,Minor,12,No,Yes,5.0,PPE Non-Compliance,Cali,0.5
+1082,21,MALE,Quality,Analyst,21.2,night,2023-04-01,Ergonomic,Severe,3,No,Yes,8.0,Unsafe Condition,Medellín,18.0
+1154,57,MALE,Quality,Analyst,10.0,day,2023-10-30,Chemical Exposure,Moderate,0,Yes,Yes,7.0,Fatigue,Barranquilla,13.7
+1271,52,FEMALE,Warehouse,Analyst,12.7,day,2024-07-11,Slip,Minor,10,Yes,Yes,8.0,Lack of Training,Bogotá,15.2
+1004,20,FEMALE,Logistics,Supervisor,12.9,night,2024-06-19,Chemical Exposure,Minor,6,Yes,Yes,9.0,Lack of Training,Cartagena,17.3
+1054,23,FEMALE,Quality,Analyst,1.4,day,2024-11-30,Cut,Severe,3,Yes,Yes,3.0,Unsafe Condition,Barranquilla,3.8
+1038,53,MALE,Maintenance,Coordinator,18.5,day,2023-12-08,Struck By Object,Moderate,0,Yes,Yes,3.0,PPE Non-Compliance,Medellín,6.6
+1185,53,FEMALE,Operations,Operator,24.6,day,2023-07-25,Slip,Moderate,16,Yes,Yes,10.0,Unsafe Condition,Cartagena,0.0
+1032,51,FEMALE,Warehouse,Operator,19.5,day,2023-07-21,Cut,Moderate,11,Yes,Yes,5.0,Unsafe Condition,Bogotá,0.0
+1102,18,MALE,Logistics,Analyst,17.7,night,2025-05-18,Fall,Minor,7,Yes,Yes,7.0,Fatigue,Barranquilla,15.6
+1198,18,FEMALE,Maintenance,Analyst,3.1,day,2025-06-09,Ergonomic,Minor,5,Yes,Yes,9.0,PPE Non-Compliance,Medellín,19.5
+1070,23,FEMALE,Operations,Coordinator,16.6,night,2023-05-21,Cut,Minor,9,Yes,Yes,1.0,PPE Non-Compliance,Bogotá,8.4
+1270,51,FEMALE,Maintenance,Technician,10.9,night,2025-03-11,Fall,Minor,13,Yes,No,3.0,PPE Non-Compliance,Cartagena,16.6
+1283,33,MALE,Logistics,Analyst,21.6,night,2023-07-12,Slip,Minor,9,Yes,Yes,10.0,Human Error,Barranquilla,23.1
+1148,48,MALE,Logistics,Analyst,7.7,day,2023-03-30,Ergonomic,Minor,10,No,Unknown,8.0,Unsafe Condition,Cartagena,12.3
+1114,33,FEMALE,Production,Coordinator,24.5,day,2024-01-10,Slip,Moderate,4,Yes,Yes,5.0,PPE Non-Compliance,Barranquilla,8.0
+1283,29,FEMALE,Production,Coordinator,15.5,day,2023-11-27,Slip,Minor,4,Yes,Unknown,2.0,Human Error,Cartagena,12.3
+1019,39,FEMALE,Maintenance,Analyst,8.3,night,2025-05-29,Fall,Minor,11,Yes,Unknown,7.0,Lack of Training,Cartagena,10.8
+1215,36,FEMALE,Logistics,Technician,19.6,night,2024-06-09,Cut,Moderate,7,No,Yes,10.0,Fatigue,Medellín,9.9
+1169,22,MALE,Logistics,Operator,4.7,day,2023-11-21,Slip,Moderate,8,Yes,Yes,6.0,Human Error,Medellín,0.4
+1291,33,FEMALE,Quality,Supervisor,15.8,night,2023-12-11,Chemical Exposure,Minor,3,Yes,Yes,6.0,Lack of Training,Cartagena,15.5
+1041,37,FEMALE,Maintenance,Coordinator,15.0,night,2023-01-20,Slip,Moderate,0,Yes,No,10.0,Fatigue,Cartagena,18.6
+1048,23,FEMALE,Warehouse,Supervisor,7.8,night,2023-03-14,Fall,Minor,14,No,Yes,10.0,Lack of Training,Barranquilla,14.2
+1079,39,MALE,Quality,Coordinator,23.5,day,2025-03-31,Ergonomic,Minor,11,Yes,Yes,6.0,Fatigue,Cartagena,22.4
+1068,24,FEMALE,Warehouse,Operator,6.3,night,2025-05-30,Ergonomic,Minor,7,No,Yes,6.0,Human Error,Medellín,16.0
+1166,34,FEMALE,Logistics,Analyst,12.5,night,2023-06-25,Ergonomic,Moderate,12,Yes,No,4.0,Unsafe Condition,Medellín,9.4
+1073,44,FEMALE,Operations,Operator,0.2,night,2024-08-27,Struck By Object,Moderate,17,Yes,Yes,8.0,Unsafe Condition,Cali,22.3
+1245,40,FEMALE,Maintenance,Supervisor,1.3,night,2023-02-08,Slip,Severe,7,Yes,Yes,2.0,PPE Non-Compliance,Medellín,10.1
+1203,20,FEMALE,Logistics,Analyst,5.4,night,2023-10-23,Cut,Moderate,0,Yes,No,3.0,Human Error,Cartagena,22.2
+1077,20,MALE,Logistics,Technician,15.4,night,2023-06-13,Fall,Moderate,8,Yes,Yes,9.0,PPE Non-Compliance,Cali,25.7
+1107,42,FEMALE,Maintenance,Operator,8.3,day,2024-05-23,Cut,Severe,13,Yes,No,8.0,Unsafe Condition,Cartagena,10.1
+1114,60,FEMALE,Maintenance,Technician,23.4,day,2024-02-24,Chemical Exposure,Minor,4,Yes,Yes,4.0,PPE Non-Compliance,Bogotá,18.9
+1256,24,FEMALE,Production,Coordinator,1.4,night,2023-08-02,Struck By Object,Minor,5,Yes,Yes,6.0,PPE Non-Compliance,Cali,23.5
+1133,27,MALE,Operations,Analyst,23.6,night,2023-12-07,Struck By Object,Moderate,12,Yes,No,1.0,Fatigue,Bogotá,16.4
+1140,44,MALE,Logistics,Operator,12.9,day,2023-07-15,Cut,Minor,0,No,Yes,7.0,Unsafe Condition,Cartagena,1.4
+1032,49,FEMALE,Quality,Analyst,19.7,day,2025-03-24,Chemical Exposure,Moderate,0,Yes,Yes,9.0,Lack of Training,Barranquilla,5.8
+1109,52,FEMALE,Maintenance,Supervisor,8.7,day,2023-01-06,Cut,Minor,9,Yes,Yes,9.0,Unsafe Condition,Medellín,13.7
+1214,26,MALE,Production,Operator,4.0,night,2025-06-13,Chemical Exposure,Moderate,11,Yes,Yes,1.0,Fatigue,Medellín,4.7
+1104,38,MALE,Logistics,Operator,18.0,night,2023-09-04,Chemical Exposure,Moderate,0,Yes,Yes,10.0,Unsafe Condition,Cartagena,12.4
+1122,27,MALE,Warehouse,Coordinator,15.9,day,2024-05-13,Slip,Moderate,6,Yes,Yes,6.0,Lack of Training,Cali,9.3
+1147,32,MALE,Logistics,Coordinator,18.7,day,2023-05-07,Slip,Moderate,7,No,No,3.0,Fatigue,Cartagena,13.8
+1175,59,MALE,Production,Coordinator,4.3,day,2023-11-26,Fall,Minor,14,Yes,Yes,1.0,Lack of Training,Bogotá,10.1
+1295,41,FEMALE,Logistics,Analyst,17.3,night,2023-09-02,Struck By Object,Minor,13,Yes,Yes,5.0,Fatigue,Cartagena,10.1
+1241,34,MALE,Maintenance,Supervisor,21.4,night,2023-07-12,Cut,Moderate,13,Yes,Yes,9.0,Fatigue,Cali,10.2
+1156,26,MALE,Quality,Supervisor,13.4,night,2025-04-01,Cut,Moderate,10,Yes,Yes,9.0,Human Error,Cartagena,14.7
+1206,46,MALE,Production,Coordinator,4.6,day,2023-07-18,Struck By Object,Severe,7,Yes,Yes,8.0,Lack of Training,Medellín,20.2
+1048,19,MALE,Quality,Operator,1.7,night,2024-10-19,Chemical Exposure,Severe,13,No,Yes,9.0,PPE Non-Compliance,Barranquilla,0.0
+1173,35,MALE,Production,Supervisor,9.4,day,2023-02-18,Chemical Exposure,Moderate,0,Yes,Yes,8.0,Human Error,Bogotá,17.0
+1062,21,FEMALE,Operations,Coordinator,11.6,night,2023-02-28,Slip,Moderate,15,Yes,Yes,1.0,Human Error,Cartagena,19.7
+1159,51,FEMALE,Maintenance,Technician,19.3,day,2023-12-14,Chemical Exposure,Minor,16,No,No,6.0,Lack of Training,Bogotá,15.3
+1209,52,MALE,Production,Supervisor,16.8,night,2024-05-14,Slip,Moderate,3,Yes,No,10.0,Unsafe Condition,Bogotá,16.2
+1215,48,FEMALE,Warehouse,Coordinator,14.9,night,2024-02-05,Ergonomic,Moderate,9,Yes,Yes,10.0,Lack of Training,Bogotá,19.5
+1269,28,MALE,Maintenance,Coordinator,6.8,day,2024-03-20,Ergonomic,Minor,1,Yes,Yes,10.0,Unsafe Condition,Cartagena,5.7
+1207,33,FEMALE,Logistics,Technician,1.9,night,2023-10-27,Chemical Exposure,Moderate,14,Yes,Yes,6.0,PPE Non-Compliance,Cartagena,8.6
+1239,20,MALE,Quality,Supervisor,23.5,night,2024-05-19,Struck By Object,Moderate,0,Yes,Unknown,4.0,Fatigue,Bogotá,4.8
+1074,56,MALE,Warehouse,Supervisor,19.4,night,2025-02-28,Cut,Moderate,10,No,Yes,4.0,PPE Non-Compliance,Bogotá,11.8
+1161,45,FEMALE,Quality,Analyst,5.4,day,2023-07-23,Struck By Object,Minor,4,No,No,6.0,PPE Non-Compliance,Cartagena,0.0
+1178,23,FEMALE,Logistics,Supervisor,10.7,day,2025-03-24,Chemical Exposure,Minor,18,Yes,Yes,2.0,Human Error,Cali,12.8
+1264,28,FEMALE,Logistics,Technician,20.3,day,2023-09-15,Fall,Moderate,11,Yes,Yes,1.0,PPE Non-Compliance,Barranquilla,20.3
+1187,38,MALE,Production,Supervisor,19.6,day,2025-03-13,Struck By Object,Moderate,14,Yes,Yes,8.0,Fatigue,Bogotá,1.5
+1183,32,MALE,Logistics,Coordinator,12.8,day,2023-04-24,Cut,Minor,7,Yes,Yes,4.0,Fatigue,Barranquilla,17.3
+1029,36,MALE,Quality,Coordinator,11.1,night,2024-07-26,Slip,Moderate,0,Yes,No,2.0,Lack of Training,Cartagena,7.6
+1028,22,FEMALE,Quality,Technician,15.8,day,2024-11-25,Fall,Minor,6,No,Yes,6.0,Unsafe Condition,Medellín,0.0
+1203,49,MALE,Production,Operator,11.4,day,2023-01-14,Slip,Moderate,1,No,Yes,5.0,Lack of Training,Cartagena,23.9
+1059,42,FEMALE,Production,Analyst,16.2,night,2023-12-09,Ergonomic,Minor,10,Yes,Yes,6.0,Fatigue,Medellín,12.3
+1242,34,MALE,Logistics,Operator,20.9,day,2024-12-26,Ergonomic,Minor,17,No,No,6.0,Human Error,Bogotá,18.8
+1156,43,MALE,Quality,Operator,10.0,night,2024-10-04,Struck By Object,Minor,0,No,Yes,8.0,Fatigue,Barranquilla,16.3
+1299,39,FEMALE,Production,Technician,17.6,day,2025-05-25,Cut,Minor,8,Yes,Yes,7.0,Lack of Training,Barranquilla,12.3
+1239,44,MALE,Warehouse,Coordinator,18.4,day,2023-02-14,Cut,Minor,9,Yes,No,4.0,PPE Non-Compliance,Cali,12.6
+1231,29,FEMALE,Warehouse,Coordinator,20.4,night,2024-01-15,Slip,Severe,4,Yes,Yes,4.0,Human Error,Cali,12.3
+1216,27,MALE,Maintenance,Operator,1.9,day,2023-02-19,Slip,Minor,10,Yes,Yes,8.0,Unsafe Condition,Medellín,12.2
+1110,25,FEMALE,Maintenance,Operator,5.5,day,2023-12-26,Cut,Minor,5,Yes,Yes,4.0,PPE Non-Compliance,Cartagena,20.7
+1282,39,FEMALE,Maintenance,Technician,22.5,night,2023-04-11,Ergonomic,Moderate,5,No,Yes,5.0,Unsafe Condition,Cali,9.8
+1266,57,MALE,Logistics,Operator,7.6,night,2023-07-11,Ergonomic,Minor,7,No,Yes,7.0,Lack of Training,Bogotá,20.3
+1181,51,FEMALE,Production,Supervisor,11.5,night,2023-04-16,Fall,Moderate,18,No,No,7.0,PPE Non-Compliance,Cali,18.5
+1013,34,FEMALE,Production,Supervisor,19.1,day,2024-11-09,Cut,Severe,8,Yes,Yes,6.0,Human Error,Cartagena,9.2
+1249,52,MALE,Logistics,Supervisor,20.0,day,2023-07-30,Slip,Minor,3,Yes,No,1.0,Lack of Training,Barranquilla,25.5
+1077,43,FEMALE,Logistics,Technician,21.7,night,2023-08-17,Ergonomic,Minor,2,Yes,No,6.0,Human Error,Medellín,19.7
+1131,51,FEMALE,Operations,Supervisor,22.6,day,2025-01-03,Chemical Exposure,Moderate,17,Yes,Yes,3.0,Fatigue,Bogotá,28.3
+1256,29,FEMALE,Production,Technician,13.9,night,2024-01-22,Ergonomic,Moderate,4,Yes,Yes,5.0,Human Error,Medellín,15.9
+1084,56,FEMALE,Quality,Coordinator,14.7,night,2025-01-31,Chemical Exposure,Moderate,16,Yes,Yes,1.0,Fatigue,Bogotá,25.3
+1273,41,FEMALE,Warehouse,Operator,12.2,night,2024-04-25,Struck By Object,Severe,4,No,Yes,1.0,Human Error,Medellín,6.1
+1189,33,MALE,Warehouse,Operator,15.4,day,2023-06-05,Chemical Exposure,Moderate,19,No,Yes,2.0,Human Error,Bogotá,12.3
+1171,38,MALE,Warehouse,Technician,19.1,night,2025-02-19,Cut,Minor,0,Yes,Yes,5.0,Human Error,Cali,17.2
+1180,47,MALE,Quality,Technician,13.8,day,2024-04-15,Chemical Exposure,Minor,6,Yes,Yes,9.0,Unsafe Condition,Barranquilla,14.3
+1271,29,MALE,Production,Operator,18.1,night,2025-03-10,Slip,Minor,0,Yes,Yes,8.0,Human Error,Cali,18.0
+1190,28,FEMALE,Warehouse,Operator,14.2,night,2023-02-11,Struck By Object,Moderate,9,No,No,8.0,PPE Non-Compliance,Barranquilla,0.6
+1102,54,FEMALE,Logistics,Operator,18.7,day,2024-01-25,Slip,Minor,6,Yes,Yes,5.0,Human Error,Barranquilla,8.3
+1063,57,MALE,Production,Supervisor,23.3,day,2023-04-25,Fall,Minor,17,Yes,No,7.0,Human Error,Barranquilla,19.9
+1244,15,MALE,Production,Operator,8.8,day,2023-10-20,Struck By Object,Severe,4,Yes,Yes,4.0,Fatigue,Bogotá,0.0
+1188,36,FEMALE,Quality,Analyst,7.8,day,2023-09-04,Struck By Object,Minor,7,Yes,Yes,8.0,Unsafe Condition,Cali,12.3
+1208,21,FEMALE,Operations,Coordinator,5.0,night,2024-08-31,Ergonomic,Minor,12,Yes,Yes,9.0,PPE Non-Compliance,Barranquilla,12.3
+1290,20,FEMALE,Warehouse,Analyst,6.2,night,2024-05-25,Slip,Minor,15,No,Unknown,3.0,Fatigue,Barranquilla,18.2
+1005,20,MALE,Logistics,Analyst,18.9,day,2023-06-01,Ergonomic,Minor,2,Yes,No,4.0,Human Error,Cali,12.3
+1132,40,MALE,Production,Technician,7.5,night,2023-05-20,Struck By Object,Minor,18,No,Yes,4.0,PPE Non-Compliance,Bogotá,8.5
+1116,39,MALE,Maintenance,Operator,4.3,day,2024-03-08,Ergonomic,Minor,10,No,Yes,9.0,Unsafe Condition,Cartagena,6.1
+1070,60,MALE,Maintenance,Technician,8.6,day,2025-02-27,Fall,Moderate,11,No,Yes,7.0,Human Error,Barranquilla,13.6
+1040,27,FEMALE,Warehouse,Operator,8.2,night,2023-07-11,Ergonomic,Minor,10,Yes,Yes,7.0,Lack of Training,Cali,16.1
+1056,55,FEMALE,Maintenance,Coordinator,5.4,night,2024-07-02,Fall,Minor,17,Yes,Yes,7.0,Fatigue,Cartagena,16.8
+1205,25,MALE,Maintenance,Coordinator,7.4,day,2024-08-24,Chemical Exposure,Severe,0,Yes,Yes,1.0,Human Error,Medellín,5.1
+1278,57,FEMALE,Logistics,Technician,24.7,day,2024-03-14,Chemical Exposure,Moderate,10,No,Yes,6.0,Fatigue,Cali,5.6
+1099,33,MALE,Logistics,Operator,9.1,night,2024-11-08,Chemical Exposure,Moderate,1,Yes,Yes,6.0,Fatigue,Cali,6.9
+1014,25,MALE,Production,Operator,20.2,day,2023-06-12,Ergonomic,Moderate,3,Yes,No,6.0,Unsafe Condition,Cartagena,0.0
+1058,40,MALE,Quality,Analyst,13.3,night,2024-12-09,Slip,Minor,0,Yes,Yes,2.0,PPE Non-Compliance,Cali,6.7
+1273,31,FEMALE,Warehouse,Analyst,21.1,night,2024-01-23,Slip,Minor,8,No,Yes,3.0,PPE Non-Compliance,Bogotá,0.0
+1100,52,FEMALE,Operations,Coordinator,10.1,night,2023-12-03,Struck By Object,Moderate,10,Yes,Yes,1.0,Human Error,Cartagena,21.6
+1288,53,FEMALE,Production,Technician,10.3,day,2023-12-21,Slip,Moderate,4,Yes,Yes,6.0,PPE Non-Compliance,Barranquilla,13.6
+1284,49,FEMALE,Logistics,Operator,22.0,night,2024-03-04,Ergonomic,Moderate,8,Yes,No,6.0,Fatigue,Barranquilla,0.0
+1071,56,MALE,Production,Coordinator,15.9,night,2025-02-14,Fall,Moderate,16,Yes,Yes,6.0,Lack of Training,Bogotá,7.5
+1098,60,MALE,Quality,Coordinator,22.3,night,2024-07-25,Struck By Object,Moderate,5,No,Yes,10.0,Fatigue,Medellín,9.9
+1271,57,MALE,Operations,Technician,13.7,night,2023-05-26,Ergonomic,Minor,7,No,Yes,10.0,Lack of Training,Cali,13.6
+1299,12,FEMALE,Quality,Coordinator,17.4,day,2024-10-12,Slip,Minor,3,No,No,3.0,Unsafe Condition,Bogotá,6.7
+1193,37,MALE,Logistics,Supervisor,9.6,night,2024-06-17,Struck By Object,Moderate,16,No,Yes,1.0,Human Error,Medellín,10.1
+1113,58,MALE,Logistics,Supervisor,5.0,night,2024-06-13,Struck By Object,Minor,6,Yes,No,9.0,Unsafe Condition,Barranquilla,19.6
+1248,42,FEMALE,Production,Supervisor,19.9,night,2023-08-25,Cut,Moderate,1,No,Yes,3.0,PPE Non-Compliance,Cali,22.3
+1048,51,MALE,Warehouse,Technician,1.9,day,2023-04-26,Slip,Minor,1,Yes,Yes,9.0,Lack of Training,Medellín,4.8
+1054,28,MALE,Warehouse,Coordinator,10.5,day,2025-03-20,Struck By Object,Minor,10,No,Yes,10.0,PPE Non-Compliance,Bogotá,17.4
+1188,30,FEMALE,Logistics,Technician,14.2,night,2023-03-17,Chemical Exposure,Minor,8,Yes,Yes,7.0,Fatigue,Cali,6.3
+1012,30,MALE,Quality,Supervisor,20.8,day,2024-07-28,Struck By Object,Moderate,3,No,No,4.0,Unsafe Condition,Cali,6.3
+1118,46,FEMALE,Quality,Supervisor,15.7,night,2025-03-06,Slip,Minor,2,Yes,No,5.0,Human Error,Cali,2.2
+1195,32,FEMALE,Warehouse,Operator,9.9,night,2025-03-07,Fall,Minor,9,No,Yes,4.0,Lack of Training,Barranquilla,2.5
+1148,42,MALE,Production,Technician,6.7,day,2023-10-12,Slip,Minor,18,Yes,Yes,3.0,Lack of Training,Bogotá,5.1
+1034,30,MALE,Maintenance,Coordinator,6.2,night,2024-04-15,Cut,Severe,0,Yes,Yes,3.0,Lack of Training,Cartagena,2.1
+1070,32,FEMALE,Quality,Coordinator,20.7,night,2024-07-03,Ergonomic,Moderate,5,Yes,Yes,5.0,Unsafe Condition,Barranquilla,21.5
+1290,30,MALE,Warehouse,Coordinator,24.8,night,2023-10-05,Fall,Minor,11,Yes,No,3.0,Lack of Training,Cartagena,20.9
+1181,49,FEMALE,Logistics,Coordinator,15.5,day,2024-08-29,Fall,Minor,0,Yes,No,7.0,Human Error,Cali,5.7
+1107,41,FEMALE,Operations,Operator,20.6,night,2023-09-02,Slip,Moderate,2,No,Yes,8.0,Fatigue,Bogotá,6.6
+1108,36,MALE,Warehouse,Supervisor,3.1,day,2025-02-10,Cut,Severe,13,Yes,Yes,1.0,Unsafe Condition,Barranquilla,15.6
+1144,19,MALE,Production,Analyst,14.4,night,2023-07-01,Slip,Minor,13,Yes,Yes,6.0,Fatigue,Medellín,5.9
+1042,54,FEMALE,Operations,Operator,16.3,day,2025-01-06,Struck By Object,Minor,10,Yes,No,10.0,Unsafe Condition,Cali,6.4
+1012,57,MALE,Production,Operator,3.2,day,2024-08-23,Fall,Minor,15,No,Yes,6.0,Fatigue,Barranquilla,15.8
+1124,53,FEMALE,Production,Supervisor,4.4,night,2023-11-17,Fall,Minor,9,Yes,Unknown,4.0,Human Error,Barranquilla,12.6
+1280,38,FEMALE,Maintenance,Coordinator,1.7,night,2023-05-05,Cut,Minor,0,No,Yes,8.0,Lack of Training,Barranquilla,20.5
+1036,53,FEMALE,Logistics,Coordinator,18.2,night,2024-03-29,Ergonomic,Moderate,13,Yes,Yes,7.0,Lack of Training,Bogotá,8.0
+1123,33,MALE,Operations,Technician,5.4,night,2024-04-24,Slip,Moderate,15,Yes,Yes,1.0,Unsafe Condition,Barranquilla,25.9
+1142,24,MALE,Maintenance,Coordinator,3.2,night,2024-08-21,Chemical Exposure,Moderate,7,Yes,Yes,4.0,Unsafe Condition,Cartagena,18.4
+1104,31,MALE,Production,Technician,3.0,day,2025-05-04,Ergonomic,Minor,2,Yes,Yes,7.0,Lack of Training,Cartagena,22.8
+1251,37,FEMALE,Logistics,Operator,14.1,day,2025-03-10,Struck By Object,Minor,8,Yes,Yes,9.0,Fatigue,Barranquilla,5.3
+1247,18,MALE,Warehouse,Coordinator,7.9,night,2023-03-13,Struck By Object,Minor,16,No,No,3.0,PPE Non-Compliance,Barranquilla,0.0
+1058,18,FEMALE,Logistics,Analyst,10.1,night,2023-07-12,Slip,Moderate,1,Yes,Yes,3.0,PPE Non-Compliance,Cartagena,21.1
+1204,37,FEMALE,Production,Technician,17.5,day,2024-12-09,Chemical Exposure,Moderate,7,Yes,Yes,9.0,Unsafe Condition,Barranquilla,20.7
+1211,56,FEMALE,Production,Technician,24.4,day,2023-01-20,Struck By Object,Minor,10,Yes,Yes,6.0,PPE Non-Compliance,Medellín,10.6
+1230,59,MALE,Operations,Operator,3.8,day,2025-06-02,Struck By Object,Severe,1,No,Yes,6.0,PPE Non-Compliance,Medellín,13.1
+1154,55,MALE,Maintenance,Operator,13.9,night,2023-11-13,Struck By Object,Minor,5,No,Yes,9.0,Unsafe Condition,Cartagena,10.8
+1118,21,MALE,Warehouse,Analyst,9.9,day,2023-04-26,Fall,Moderate,0,No,Yes,7.0,Lack of Training,Medellín,2.6
+1028,60,MALE,Operations,Coordinator,24.2,night,2024-05-12,Cut,Minor,6,Yes,Yes,1.0,Unsafe Condition,Barranquilla,8.0
+1238,47,MALE,Production,Analyst,23.5,day,2024-12-20,Ergonomic,Severe,9,Yes,Yes,5.0,Human Error,Bogotá,11.8
+1246,55,MALE,Warehouse,Technician,11.4,day,2024-07-29,Struck By Object,Minor,4,Yes,Yes,9.0,Fatigue,Bogotá,15.3
+1230,44,MALE,Logistics,Supervisor,8.5,night,2024-01-26,Slip,Minor,1,Yes,Yes,10.0,Lack of Training,Bogotá,9.1
+1001,24,FEMALE,Logistics,Analyst,14.9,day,2023-09-17,Struck By Object,Severe,0,No,Yes,9.0,Lack of Training,Medellín,19.4
+1156,46,MALE,Maintenance,Analyst,3.6,night,2024-10-19,Chemical Exposure,Minor,19,Yes,No,10.0,Fatigue,Cali,0.9
+1132,47,MALE,Maintenance,Supervisor,2.0,day,2023-02-08,Struck By Object,Minor,14,No,Yes,6.0,PPE Non-Compliance,Cartagena,15.5
+1257,43,FEMALE,Logistics,Analyst,24.3,day,2023-09-10,Struck By Object,Minor,10,Yes,No,9.0,Human Error,Bogotá,12.3
+1229,29,MALE,Logistics,Coordinator,23.8,day,2023-02-02,Slip,Minor,4,Yes,Yes,4.0,Unsafe Condition,Medellín,18.8
+1172,35,FEMALE,Production,Supervisor,15.0,day,2024-05-01,Ergonomic,Severe,0,Yes,Yes,10.0,Unsafe Condition,Cartagena,12.3
+1068,35,FEMALE,Logistics,Analyst,6.6,day,2024-06-06,Struck By Object,Minor,7,Yes,Unknown,7.0,PPE Non-Compliance,Barranquilla,17.9
+1224,45,MALE,Maintenance,Coordinator,0.4,night,2024-02-16,Slip,Minor,10,Yes,No,7.0,Human Error,Barranquilla,16.5
+1271,24,FEMALE,Production,Technician,11.0,night,2025-06-08,Cut,Minor,4,Yes,Yes,6.0,Lack of Training,Cali,7.6
+1147,20,FEMALE,Production,Technician,9.6,day,2024-08-11,Cut,Moderate,8,Yes,Yes,7.0,Fatigue,Medellín,2.6
+1195,26,FEMALE,Maintenance,Analyst,13.9,night,2023-01-16,Fall,Severe,20,Yes,No,8.0,Unsafe Condition,Cartagena,16.8
+1012,42,FEMALE,Warehouse,Analyst,3.2,night,2024-01-04,Chemical Exposure,Minor,0,Yes,No,5.0,Unsafe Condition,Cartagena,13.0
+1025,35,MALE,Logistics,Coordinator,23.2,night,2024-03-02,Ergonomic,Minor,13,Yes,Yes,8.0,Lack of Training,Barranquilla,2.4
+1160,26,FEMALE,Quality,Supervisor,10.4,night,2023-06-04,Ergonomic,Minor,1,Yes,No,8.0,Human Error,Barranquilla,7.9
+1280,56,MALE,Quality,Analyst,9.8,day,2024-06-01,Struck By Object,Minor,11,Yes,Yes,2.0,Lack of Training,Barranquilla,20.3
+1249,28,MALE,Logistics,Technician,21.1,night,2023-04-21,Ergonomic,Minor,8,Yes,Yes,1.0,Human Error,Cartagena,12.4
+1214,40,MALE,Quality,Coordinator,0.4,night,2024-07-16,Struck By Object,Minor,4,Yes,Yes,4.0,PPE Non-Compliance,Cali,18.6
+1126,54,FEMALE,Quality,Coordinator,17.3,day,2023-09-10,Chemical Exposure,Minor,15,Yes,Yes,6.0,Fatigue,Medellín,0.0
+1016,45,MALE,Production,Operator,16.9,day,2024-10-23,Struck By Object,Minor,4,Yes,Yes,7.0,Lack of Training,Barranquilla,2.6
+1158,30,FEMALE,Maintenance,Supervisor,14.8,day,2023-12-18,Cut,Moderate,7,Yes,Yes,2.0,Unsafe Condition,Bogotá,2.1
+1168,59,MALE,Production,Supervisor,11.8,night,2023-03-29,Fall,Minor,1,Yes,Yes,5.0,Unsafe Condition,Cali,21.8
+1296,30,MALE,Operations,Supervisor,11.0,day,2023-03-31,Ergonomic,Minor,2,Yes,Yes,9.0,Lack of Training,Barranquilla,16.5
+1075,31,MALE,Quality,Operator,2.6,day,2024-07-03,Slip,Minor,3,Yes,Yes,4.0,Fatigue,Cartagena,12.9
+1237,52,FEMALE,Warehouse,Technician,22.4,day,2025-06-11,Chemical Exposure,Minor,13,Yes,No,3.0,Unsafe Condition,Cali,13.5
+1016,26,FEMALE,Production,Technician,14.3,night,2023-01-25,Ergonomic,Minor,3,Yes,Yes,6.0,Unsafe Condition,Cali,6.9
+1122,23,MALE,Quality,Coordinator,15.4,night,2023-01-21,Struck By Object,Minor,0,Yes,Yes,9.0,Human Error,Cali,12.8
+1015,21,FEMALE,Operations,Technician,16.2,night,2024-04-23,Cut,Moderate,7,Yes,Yes,2.0,Lack of Training,Cartagena,20.0
+1267,52,MALE,Logistics,Analyst,22.6,night,2023-04-27,Ergonomic,Minor,5,Yes,No,9.0,PPE Non-Compliance,Cartagena,1.1
+1199,19,FEMALE,Warehouse,Analyst,17.0,night,2023-11-04,Fall,Severe,15,Yes,Yes,10.0,PPE Non-Compliance,Medellín,15.8
+1197,48,FEMALE,Warehouse,Technician,17.3,day,2023-06-28,Ergonomic,Severe,2,Yes,Yes,7.0,PPE Non-Compliance,Cartagena,9.7
+1106,23,MALE,Operations,Technician,9.2,day,2025-01-01,Fall,Minor,4,Yes,Yes,3.0,Fatigue,Medellín,3.9
+1144,41,MALE,Maintenance,Supervisor,20.6,day,2025-06-12,Slip,Moderate,14,Yes,Yes,4.0,Human Error,Cali,6.1
+1030,36,FEMALE,Warehouse,Technician,19.7,night,2024-06-02,Struck By Object,Severe,12,Yes,Yes,3.0,Unsafe Condition,Bogotá,7.2
+1273,30,FEMALE,Quality,Coordinator,21.8,day,2024-07-07,Ergonomic,Moderate,10,Yes,No,9.0,Fatigue,Cartagena,10.1
+1174,41,FEMALE,Production,Supervisor,5.8,night,2024-03-14,Slip,Minor,5,Yes,Yes,3.0,PPE Non-Compliance,Cali,10.6
+1176,38,MALE,Operations,Supervisor,17.1,night,2024-08-24,Struck By Object,Minor,13,No,No,8.0,Fatigue,Bogotá,6.4
+1196,52,FEMALE,Warehouse,Coordinator,21.8,day,2023-11-08,Struck By Object,Minor,8,Yes,No,7.0,Unsafe Condition,Cali,10.8
+1123,28,FEMALE,Quality,Analyst,16.9,night,2024-07-06,Slip,Moderate,16,Yes,Yes,5.0,Lack of Training,Cartagena,0.0
+1224,20,MALE,Maintenance,Supervisor,17.7,day,2024-07-13,Cut,Minor,10,Yes,Yes,1.0,Fatigue,Cartagena,19.5
+1024,40,MALE,Maintenance,Analyst,15.3,night,2025-06-10,Ergonomic,Minor,4,Yes,No,7.0,Unsafe Condition,Cartagena,10.3
+1079,20,MALE,Operations,Coordinator,15.7,day,2025-02-14,Cut,Severe,7,Yes,Yes,9.0,Human Error,Medellín,12.3
+1209,54,FEMALE,Quality,Technician,16.6,day,2024-01-21,Fall,Moderate,0,No,Yes,2.0,Unsafe Condition,Medellín,12.3
+1128,60,MALE,Operations,Analyst,11.5,day,2024-09-25,Slip,Minor,8,Yes,Yes,7.0,Fatigue,Cartagena,25.2
+1214,39,FEMALE,Maintenance,Technician,20.6,day,2023-12-08,Chemical Exposure,Moderate,11,Yes,Yes,1.0,PPE Non-Compliance,Cartagena,14.9
+1132,21,MALE,Warehouse,Coordinator,6.1,night,2023-08-04,Cut,Minor,13,Yes,Unknown,6.0,PPE Non-Compliance,Medellín,20.0
+1290,40,MALE,Logistics,Coordinator,18.8,day,2023-11-14,Fall,Minor,3,Yes,Yes,7.0,Fatigue,Cali,13.7
+1079,35,MALE,Logistics,Technician,21.7,day,2023-07-08,Slip,Minor,6,No,Yes,10.0,Fatigue,Bogotá,24.0
+1296,23,MALE,Logistics,Technician,6.2,day,2025-02-13,Struck By Object,Minor,9,Yes,Yes,10.0,Unsafe Condition,Bogotá,7.5
+1184,23,MALE,Quality,Supervisor,8.4,day,2024-03-10,Struck By Object,Moderate,3,Yes,Yes,9.0,Unsafe Condition,Cali,5.9
+1099,47,MALE,Quality,Operator,11.0,night,2025-04-07,Chemical Exposure,Severe,11,Yes,No,2.0,PPE Non-Compliance,Medellín,18.4
+1122,34,FEMALE,Production,Supervisor,7.9,night,2025-01-28,Fall,Moderate,2,Yes,Yes,6.0,Lack of Training,Cali,19.9
+1198,54,FEMALE,Quality,Supervisor,4.3,day,2025-06-11,Chemical Exposure,Minor,4,Yes,Yes,10.0,Unsafe Condition,Bogotá,15.4
+1065,53,FEMALE,Maintenance,Analyst,23.4,day,2025-04-27,Cut,Severe,4,Yes,Yes,4.0,PPE Non-Compliance,Medellín,4.9
+1078,33,MALE,Warehouse,Technician,4.0,night,2023-07-25,Struck By Object,Moderate,4,Yes,Yes,9.0,PPE Non-Compliance,Barranquilla,4.8
+1129,23,MALE,Operations,Analyst,19.8,day,2023-12-06,Fall,Minor,3,No,Yes,4.0,Fatigue,Cali,5.4
+1055,44,FEMALE,Operations,Analyst,23.7,night,2024-09-12,Ergonomic,Minor,5,No,Unknown,10.0,Fatigue,Medellín,14.2
+1079,20,FEMALE,Logistics,Operator,4.8,day,2024-06-30,Cut,Minor,9,No,Yes,1.0,PPE Non-Compliance,Barranquilla,18.9
+1270,49,MALE,Quality,Technician,23.2,day,2024-07-26,Struck By Object,Moderate,11,Yes,Yes,1.0,PPE Non-Compliance,Bogotá,19.4
+1115,59,FEMALE,Quality,Operator,14.1,day,2023-03-15,Fall,Severe,12,No,Yes,2.0,Lack of Training,Bogotá,32.0
+1130,53,FEMALE,Operations,Technician,12.9,night,2024-03-17,Slip,Minor,5,Yes,Yes,10.0,Human Error,Cali,1.5
+1101,60,MALE,Operations,Supervisor,2.2,day,2024-06-20,Struck By Object,Minor,0,Yes,Yes,9.0,Fatigue,Cali,13.8
+1137,21,MALE,Maintenance,Analyst,23.2,day,2023-05-10,Ergonomic,Minor,9,No,Yes,1.0,Lack of Training,Barranquilla,25.2
+1042,37,MALE,Logistics,Supervisor,22.9,night,2023-10-01,Struck By Object,Minor,15,Yes,No,4.0,Fatigue,Bogotá,6.8
+1047,60,MALE,Warehouse,Coordinator,1.4,day,2024-01-11,Chemical Exposure,Minor,0,No,Yes,10.0,Fatigue,Cali,12.0
+1154,43,MALE,Quality,Technician,6.5,day,2024-12-29,Ergonomic,Moderate,5,No,Yes,1.0,Fatigue,Cali,15.7
+1177,20,MALE,Quality,Analyst,10.8,night,2024-08-10,Fall,Moderate,15,No,Yes,4.0,Lack of Training,Bogotá,7.6
+1189,18,MALE,Warehouse,Analyst,1.3,day,2024-02-12,Struck By Object,Minor,4,Yes,Yes,4.0,PPE Non-Compliance,Bogotá,27.5
+1071,58,MALE,Logistics,Operator,5.5,night,2023-12-02,Chemical Exposure,Minor,5,Yes,Yes,3.0,Human Error,Cartagena,32.2
+1068,43,FEMALE,Warehouse,Supervisor,23.9,day,2032-01-06,Fall,Minor,13,Yes,Yes,8.0,PPE Non-Compliance,Bogotá,11.5
+1098,43,MALE,Warehouse,Coordinator,12.8,night,2025-06-12,Ergonomic,Minor,0,Yes,Yes,2.0,Unsafe Condition,Medellín,2.6
+1276,20,FEMALE,Operations,Technician,12.3,night,2024-08-18,Struck By Object,Moderate,6,Yes,No,6.0,Lack of Training,Bogotá,20.8
+1278,35,FEMALE,Quality,Coordinator,8.2,day,2023-07-11,Chemical Exposure,Moderate,0,Yes,No,6.0,Lack of Training,Medellín,24.0
+1155,60,MALE,Maintenance,Analyst,2.1,night,2023-03-25,Struck By Object,Minor,1,No,Yes,5.0,PPE Non-Compliance,Cartagena,19.4
+1009,32,FEMALE,Maintenance,Analyst,3.5,day,2023-10-20,Fall,Minor,18,No,Yes,10.0,Human Error,Barranquilla,13.0
+1035,31,MALE,Logistics,Technician,6.6,day,2024-04-16,Fall,Moderate,15,Yes,Yes,3.0,Unsafe Condition,Cartagena,13.1
+1268,56,MALE,Quality,Coordinator,15.0,night,2025-02-07,Struck By Object,Minor,16,No,Unknown,2.0,Unsafe Condition,Barranquilla,0.0
+1081,27,FEMALE,Warehouse,Coordinator,14.8,night,2023-01-12,Slip,Minor,14,Yes,Yes,8.0,PPE Non-Compliance,Barranquilla,24.1
+1139,53,MALE,Operations,Coordinator,4.9,night,2025-01-31,Slip,Moderate,19,Yes,Yes,5.0,Human Error,Medellín,12.3
+1167,37,FEMALE,Warehouse,Operator,23.1,day,2023-08-24,Ergonomic,Minor,15,Yes,Yes,10.0,Unsafe Condition,Bogotá,5.1
+1145,55,MALE,Maintenance,Operator,12.1,night,2024-01-10,Fall,Minor,8,Yes,Yes,8.0,Unsafe Condition,Cartagena,15.8
+1018,45,MALE,Operations,Supervisor,2.7,day,2025-03-11,Ergonomic,Moderate,3,Yes,Yes,10.0,Fatigue,Barranquilla,7.1
+1025,28,MALE,Quality,Technician,19.8,day,2025-03-04,Fall,Minor,0,Yes,Yes,1.0,Fatigue,Cali,2.2
+1258,35,MALE,Warehouse,Coordinator,2.5,day,2023-08-01,Cut,Minor,14,Yes,Yes,8.0,Fatigue,Medellín,14.6
+1030,27,FEMALE,Quality,Supervisor,10.1,day,2032-01-04,Fall,Severe,9,Yes,Yes,9.0,Lack of Training,Medellín,20.5
+1042,36,FEMALE,Logistics,Coordinator,17.1,day,2025-04-15,Cut,Minor,4,Yes,Yes,2.0,Human Error,Barranquilla,5.4
+1018,22,FEMALE,Production,Coordinator,4.1,day,2025-03-31,Fall,Minor,1,Yes,Yes,2.0,Unsafe Condition,Cartagena,6.4
+1156,35,FEMALE,Logistics,Technician,9.4,day,2023-04-18,Fall,Moderate,9,No,Yes,7.0,Human Error,Barranquilla,7.7
+1188,26,FEMALE,Quality,Coordinator,10.2,day,2023-09-11,Fall,Severe,12,Yes,Yes,2.0,Lack of Training,Bogotá,14.2
+1248,24,MALE,Production,Supervisor,19.0,night,2024-10-16,Slip,Moderate,2,No,Yes,10.0,Fatigue,Barranquilla,7.4
+1151,46,MALE,Quality,Analyst,11.3,night,2024-02-25,Cut,Minor,15,Yes,No,4.0,Fatigue,Cali,10.5
+1159,59,FEMALE,Logistics,Supervisor,0.9,day,2024-09-07,Chemical Exposure,Minor,8,Yes,Yes,6.0,PPE Non-Compliance,Barranquilla,12.5
+1182,45,MALE,Quality,Operator,20.7,night,2025-01-25,Slip,Minor,9,Yes,No,4.0,Human Error,Barranquilla,15.3
+1033,24,FEMALE,Operations,Analyst,17.5,day,2023-06-30,Cut,Moderate,11,Yes,Yes,3.0,PPE Non-Compliance,Barranquilla,18.5
+1004,48,MALE,Production,Operator,16.1,day,2024-06-05,Slip,Moderate,7,No,Yes,5.0,PPE Non-Compliance,Cartagena,13.9
+1063,51,MALE,Quality,Coordinator,18.9,night,2024-10-19,Struck By Object,Minor,1,Yes,Yes,4.0,PPE Non-Compliance,Cartagena,28.9
+1234,18,MALE,Maintenance,Coordinator,4.2,night,2023-03-10,Slip,Minor,4,Yes,Unknown,7.0,Lack of Training,Cali,10.9
+1049,55,MALE,Maintenance,Coordinator,19.9,day,2023-03-31,Ergonomic,Minor,11,Yes,No,8.0,Lack of Training,Medellín,0.0
+1239,48,MALE,Quality,Analyst,18.8,day,2023-09-04,Ergonomic,Minor,14,Yes,Yes,9.0,PPE Non-Compliance,Barranquilla,12.4
+1027,21,FEMALE,Warehouse,Technician,23.5,night,2024-01-02,Struck By Object,Minor,17,Yes,No,2.0,Lack of Training,Bogotá,10.8
+1124,29,FEMALE,Logistics,Operator,13.7,day,2024-05-17,Slip,Minor,6,No,Yes,7.0,Human Error,Cali,14.6
+1019,24,MALE,Maintenance,Analyst,0.2,day,2025-05-17,Chemical Exposure,Minor,14,Yes,Yes,9.0,Human Error,Barranquilla,8.5
+1010,55,FEMALE,Quality,Technician,8.8,night,2023-08-19,Cut,Moderate,1,No,Yes,5.0,PPE Non-Compliance,Medellín,12.5
+1265,34,FEMALE,Quality,Supervisor,19.4,day,2023-02-18,Struck By Object,Minor,22,Yes,Yes,6.0,PPE Non-Compliance,Bogotá,6.3
+1161,30,MALE,Maintenance,Technician,19.0,night,2023-11-02,Fall,Severe,15,Yes,Yes,6.0,Fatigue,Barranquilla,0.0
+1071,44,FEMALE,Production,Analyst,15.4,day,2025-04-04,Struck By Object,Severe,8,Yes,Yes,5.0,Lack of Training,Cartagena,16.5
+1277,35,MALE,Maintenance,Analyst,8.1,day,2024-09-23,Struck By Object,Severe,11,Yes,No,3.0,PPE Non-Compliance,Barranquilla,18.9
+1040,20,MALE,Maintenance,Supervisor,18.3,day,2025-01-14,Ergonomic,Minor,18,Yes,Unknown,1.0,Human Error,Barranquilla,10.1
+1201,34,FEMALE,Logistics,Technician,15.6,day,2024-08-21,Ergonomic,Severe,12,Yes,No,9.0,Fatigue,Medellín,26.5
+1283,19,FEMALE,Warehouse,Operator,11.2,day,2023-01-17,Cut,Moderate,9,Yes,Unknown,4.0,PPE Non-Compliance,Bogotá,0.0
+1158,29,MALE,Production,Analyst,21.1,night,2024-12-09,Ergonomic,Minor,4,Yes,Yes,3.0,Human Error,Bogotá,9.6
+1210,34,MALE,Production,Operator,21.3,night,2025-02-18,Fall,Moderate,7,Yes,Yes,4.0,Lack of Training,Barranquilla,10.6
+1213,18,FEMALE,Maintenance,Technician,5.9,night,2023-11-17,Cut,Minor,5,Yes,No,2.0,Lack of Training,Cartagena,8.2
+1082,25,MALE,Logistics,Operator,14.6,day,2024-11-09,Fall,Moderate,3,Yes,Yes,9.0,Fatigue,Cali,10.1
+1200,52,FEMALE,Operations,Supervisor,13.8,day,2024-05-08,Fall,Minor,13,Yes,No,2.0,Unsafe Condition,Barranquilla,16.0
+1206,39,FEMALE,Warehouse,Analyst,6.7,day,2023-08-23,Struck By Object,Minor,5,No,Yes,7.0,Unsafe Condition,Barranquilla,12.3
+1140,59,FEMALE,Quality,Analyst,8.0,night,2024-11-27,Cut,Minor,0,Yes,No,4.0,Fatigue,Bogotá,0.0
+1297,48,MALE,Logistics,Analyst,21.2,night,2023-11-23,Fall,Minor,6,Yes,No,3.0,Human Error,Cartagena,12.0
+1093,34,MALE,Operations,Supervisor,15.5,night,2024-05-23,Slip,Minor,5,Yes,Unknown,5.0,Unsafe Condition,Bogotá,6.6
+1205,36,FEMALE,Warehouse,Technician,3.5,day,2024-12-31,Chemical Exposure,Severe,6,Yes,Yes,6.0,Lack of Training,Cali,20.2
+1056,42,FEMALE,Logistics,Analyst,19.4,night,2025-03-13,Struck By Object,Severe,5,Yes,Yes,3.0,PPE Non-Compliance,Cartagena,20.0
+1258,30,MALE,Logistics,Analyst,10.2,day,2025-04-28,Slip,Minor,14,Yes,No,3.0,Lack of Training,Medellín,18.1
+1216,22,MALE,Maintenance,Operator,17.3,day,2024-03-19,Fall,Severe,12,Yes,No,1.0,Unsafe Condition,Cartagena,2.8
+1040,33,MALE,Warehouse,Technician,14.2,night,2023-02-26,Fall,Minor,8,Yes,Yes,10.0,Fatigue,Bogotá,0.0
+1116,51,MALE,Warehouse,Operator,11.1,night,2025-05-23,Chemical Exposure,Minor,0,No,Yes,4.0,Unsafe Condition,Medellín,8.4
+1226,33,FEMALE,Maintenance,Technician,11.6,night,2024-03-16,Cut,Minor,4,No,No,6.0,PPE Non-Compliance,Cartagena,14.5
+1089,32,MALE,Quality,Supervisor,16.1,night,2025-05-01,Chemical Exposure,Moderate,19,Yes,Yes,7.0,Fatigue,Cartagena,19.9
+1166,54,FEMALE,Production,Coordinator,10.9,day,2025-02-24,Slip,Minor,1,Yes,Yes,1.0,Unsafe Condition,Barranquilla,13.1
+1163,51,MALE,Operations,Technician,21.9,night,2023-01-16,Slip,Minor,2,Yes,No,4.0,Lack of Training,Cartagena,11.4
+1189,44,FEMALE,Operations,Supervisor,7.9,night,2025-03-02,Slip,Moderate,6,No,Yes,5.0,Fatigue,Medellín,0.2
+1226,32,FEMALE,Maintenance,Supervisor,11.3,day,2024-04-15,Fall,Minor,12,No,Yes,7.0,Fatigue,Cartagena,13.0
+1003,46,FEMALE,Maintenance,Operator,23.3,night,2025-02-10,Cut,Minor,14,No,No,2.0,Lack of Training,Medellín,19.5
+1191,19,MALE,Maintenance,Technician,20.7,day,2024-08-18,Struck By Object,Moderate,3,Yes,Yes,10.0,Unsafe Condition,Medellín,11.5
+1076,53,FEMALE,Quality,Coordinator,13.1,day,2023-04-24,Chemical Exposure,Minor,7,Yes,Yes,5.0,PPE Non-Compliance,Bogotá,13.8
+1230,43,FEMALE,Warehouse,Technician,7.9,night,2023-12-12,Cut,Minor,6,Yes,No,8.0,PPE Non-Compliance,Bogotá,12.9
+1235,38,FEMALE,Quality,Operator,21.7,day,2023-07-27,Chemical Exposure,Moderate,24,Yes,No,8.0,Unsafe Condition,Cartagena,12.3
+1097,24,MALE,Maintenance,Coordinator,4.8,day,2025-02-14,Chemical Exposure,Minor,6,Yes,Yes,10.0,Fatigue,Cartagena,21.4
+1285,33,MALE,Production,Technician,21.7,day,2024-01-29,Ergonomic,Minor,11,Yes,Yes,6.0,Lack of Training,Bogotá,11.0
+1166,48,MALE,Logistics,Technician,20.5,day,2032-01-01,Fall,Minor,14,Yes,Yes,3.0,PPE Non-Compliance,Cali,0.0
+1220,25,MALE,Logistics,Technician,18.5,night,2025-03-27,Ergonomic,Moderate,4,Yes,Yes,9.0,Lack of Training,Medellín,2.7
+1129,40,MALE,Operations,Operator,15.7,day,2032-01-05,Struck By Object,Minor,19,No,Yes,7.0,Unsafe Condition,Cali,21.9
+1204,39,FEMALE,Production,Analyst,18.7,night,2023-01-02,Cut,Severe,13,Yes,No,4.0,Human Error,Cali,1.1
+1105,20,MALE,Production,Coordinator,17.8,day,2025-01-18,Ergonomic,Minor,7,No,Yes,6.0,Fatigue,Bogotá,0.0
+1193,32,MALE,Operations,Supervisor,12.3,night,2025-02-17,Struck By Object,Severe,7,Yes,No,1.0,Fatigue,Barranquilla,22.0
+1176,32,MALE,Operations,Supervisor,5.1,night,2025-05-18,Chemical Exposure,Moderate,9,Yes,Yes,1.0,Unsafe Condition,Barranquilla,0.0
+1056,52,FEMALE,Quality,Technician,7.6,night,2023-07-07,Struck By Object,Minor,16,Yes,Yes,4.0,Fatigue,Barranquilla,9.2
+1181,53,MALE,Logistics,Technician,4.2,night,2023-12-23,Struck By Object,Severe,5,Yes,Yes,5.0,Human Error,Cartagena,20.6
+1103,56,MALE,Quality,Supervisor,2.6,day,2024-09-03,Slip,Minor,10,Yes,Yes,1.0,Lack of Training,Barranquilla,0.0
+1002,31,FEMALE,Warehouse,Coordinator,24.5,night,2023-04-11,Slip,Severe,1,No,Yes,3.0,Lack of Training,Medellín,18.4
+1229,35,MALE,Production,Operator,9.6,day,2023-05-03,Ergonomic,Moderate,0,Yes,Yes,10.0,Human Error,Cali,0.0
+1074,60,FEMALE,Operations,Operator,4.4,night,2023-02-01,Slip,Severe,2,Yes,Yes,9.0,PPE Non-Compliance,Barranquilla,18.8
+1114,31,FEMALE,Operations,Supervisor,8.7,night,2023-01-29,Struck By Object,Minor,11,Yes,Yes,1.0,Unsafe Condition,Medellín,20.4
+1231,33,MALE,Quality,Coordinator,23.4,night,2023-06-21,Slip,Severe,6,Yes,Yes,10.0,PPE Non-Compliance,Cali,13.5
+1020,42,MALE,Maintenance,Analyst,20.1,day,2023-09-12,Cut,Minor,18,Yes,Yes,2.0,Unsafe Condition,Cali,5.3
+1069,48,MALE,Maintenance,Supervisor,8.6,night,2023-08-24,Fall,Minor,8,Yes,Yes,10.0,Fatigue,Barranquilla,25.8
+1253,47,MALE,Quality,Supervisor,2.3,night,2024-11-27,Struck By Object,Minor,10,Yes,No,3.0,Human Error,Bogotá,0.0
+1130,58,MALE,Operations,Analyst,16.4,night,2023-11-07,Struck By Object,Moderate,3,Yes,Yes,6.0,Human Error,Cali,18.1
+1256,60,MALE,Maintenance,Analyst,9.0,day,2025-03-22,Fall,Moderate,1,Yes,Yes,3.0,Unsafe Condition,Barranquilla,12.0
+1126,41,MALE,Warehouse,Coordinator,10.8,night,2023-01-26,Ergonomic,Moderate,13,Yes,Yes,7.0,Human Error,Bogotá,13.8
+1146,38,MALE,Production,Technician,15.7,night,2023-12-20,Slip,Minor,0,Yes,Yes,8.0,Fatigue,Bogotá,18.9
+1115,37,MALE,Production,Operator,17.9,day,2024-09-01,Struck By Object,Moderate,9,Yes,Yes,3.0,Fatigue,Bogotá,13.1
+1170,46,MALE,Logistics,Supervisor,10.6,day,2025-06-14,Fall,Moderate,18,Yes,No,10.0,Lack of Training,Cali,8.7
+1012,25,MALE,Production,Coordinator,5.9,day,2025-05-13,Cut,Moderate,6,Yes,No,1.0,Human Error,Cali,21.6
+1279,50,MALE,Quality,Coordinator,12.2,night,2024-09-10,Chemical Exposure,Minor,0,No,Yes,1.0,Unsafe Condition,Barranquilla,22.5
+1134,55,FEMALE,Maintenance,Technician,0.0,night,2025-01-22,Chemical Exposure,Moderate,12,Yes,Yes,10.0,Human Error,Barranquilla,23.7
+1150,23,MALE,Warehouse,Operator,12.2,day,2023-03-11,Chemical Exposure,Severe,12,Yes,Yes,9.0,PPE Non-Compliance,Cali,14.1
+1213,58,MALE,Production,Analyst,4.5,night,2024-10-14,Chemical Exposure,Minor,7,No,No,10.0,Unsafe Condition,Barranquilla,6.8
+1291,55,FEMALE,Logistics,Analyst,9.6,night,2023-02-03,Chemical Exposure,Minor,5,Yes,Yes,2.0,Human Error,Cali,19.7
+1133,20,MALE,Production,Supervisor,6.1,day,2024-09-06,Slip,Moderate,12,Yes,No,9.0,Lack of Training,Cali,20.8
+1293,33,MALE,Logistics,Operator,24.7,day,2023-05-10,Cut,Minor,13,Yes,Yes,6.0,PPE Non-Compliance,Medellín,21.0
+1042,58,FEMALE,Quality,Operator,0.5,night,2024-10-16,Slip,Severe,7,Yes,Yes,6.0,PPE Non-Compliance,Cali,13.9
+1232,43,MALE,Logistics,Analyst,24.5,night,2024-06-26,Ergonomic,Moderate,9,No,Yes,5.0,Lack of Training,Bogotá,4.9
+1283,59,FEMALE,Maintenance,Analyst,3.5,day,2025-01-30,Struck By Object,Minor,15,Yes,Yes,7.0,Human Error,Medellín,20.8
+1248,39,MALE,Warehouse,Technician,24.2,day,2024-12-16,Cut,Minor,0,No,Yes,5.0,Human Error,Cali,20.7
+1220,48,FEMALE,Warehouse,Coordinator,12.6,day,2023-04-25,Slip,Minor,8,Yes,No,5.0,Fatigue,Bogotá,7.6
+1020,55,MALE,Maintenance,Operator,16.7,night,2025-05-10,Fall,Minor,3,Yes,No,1.0,PPE Non-Compliance,Bogotá,17.3
+1261,30,MALE,Logistics,Analyst,5.3,night,2025-03-29,Struck By Object,Moderate,9,No,Yes,7.0,Lack of Training,Barranquilla,6.6
+1185,20,FEMALE,Logistics,Analyst,15.6,night,2023-07-24,Struck By Object,Severe,12,No,Yes,4.0,Fatigue,Cali,5.3
+1016,29,MALE,Warehouse,Supervisor,7.4,day,2024-05-22,Slip,Minor,7,Yes,Yes,7.0,PPE Non-Compliance,Barranquilla,12.3
+1178,30,MALE,Operations,Analyst,24.0,night,2024-01-19,Slip,Severe,4,Yes,Yes,10.0,Human Error,Bogotá,14.3
+1146,24,FEMALE,Quality,Technician,10.4,day,2023-10-07,Slip,Minor,5,Yes,Yes,5.0,PPE Non-Compliance,Cali,0.0
+1079,50,MALE,Operations,Operator,20.4,night,2025-02-20,Slip,Severe,11,Yes,Yes,3.0,Fatigue,Cartagena,12.2
+1077,35,MALE,Maintenance,Supervisor,12.3,night,2024-11-23,Cut,Moderate,5,Yes,Yes,1.0,PPE Non-Compliance,Cali,12.3
+1219,23,FEMALE,Logistics,Analyst,19.8,day,2024-06-14,Slip,Minor,3,Yes,No,10.0,Unsafe Condition,Medellín,9.5
+1253,47,FEMALE,Warehouse,Coordinator,7.7,night,2024-03-20,Chemical Exposure,Minor,10,Yes,Yes,1.0,Lack of Training,Barranquilla,0.0
+1178,60,MALE,Quality,Supervisor,9.4,night,2023-01-21,Ergonomic,Minor,6,No,Yes,6.0,Human Error,Cartagena,0.0
+1259,37,MALE,Logistics,Operator,19.4,night,2025-04-08,Fall,Minor,0,Yes,Yes,10.0,PPE Non-Compliance,Medellín,14.4
+1182,24,FEMALE,Logistics,Supervisor,8.8,day,2023-05-01,Ergonomic,Moderate,11,Yes,Yes,8.0,PPE Non-Compliance,Bogotá,9.8
+1256,41,FEMALE,Warehouse,Technician,23.6,day,2024-02-24,Chemical Exposure,Severe,12,Yes,Yes,10.0,Unsafe Condition,Medellín,10.4
+1227,25,FEMALE,Maintenance,Operator,6.6,day,2023-05-17,Struck By Object,Moderate,11,Yes,Yes,6.0,PPE Non-Compliance,Medellín,17.0
+1029,60,FEMALE,Production,Analyst,1.9,day,2024-11-07,Fall,Minor,6,No,Yes,10.0,Human Error,Cartagena,4.9
+1194,25,FEMALE,Logistics,Technician,21.9,day,2025-06-01,Chemical Exposure,Moderate,8,Yes,Yes,3.0,Unsafe Condition,Medellín,1.8
+1191,29,MALE,Logistics,Technician,4.3,day,2024-01-30,Chemical Exposure,Moderate,20,Yes,Yes,3.0,Fatigue,Medellín,12.5
+1086,38,MALE,Production,Technician,3.9,day,2024-07-13,Cut,Minor,3,Yes,Unknown,9.0,Human Error,Bogotá,1.2
+1101,38,FEMALE,Logistics,Operator,3.6,night,2024-09-24,Cut,Minor,4,No,Yes,6.0,Fatigue,Medellín,13.2
+1067,29,FEMALE,Logistics,Supervisor,4.3,day,2024-12-18,Chemical Exposure,Minor,13,Yes,Yes,1.0,PPE Non-Compliance,Cali,0.0
+1262,44,MALE,Production,Operator,3.6,day,2024-02-20,Chemical Exposure,Moderate,15,No,Yes,6.0,Human Error,Cartagena,16.9
+1274,29,MALE,Production,Technician,5.2,night,2023-01-24,Fall,Minor,3,No,Yes,6.0,Unsafe Condition,Cartagena,24.9
+1093,59,MALE,Production,Operator,6.5,night,2023-04-26,Slip,Minor,4,Yes,Yes,8.0,Fatigue,Medellín,11.0
+1100,22,FEMALE,Warehouse,Analyst,2.6,night,2025-06-18,Cut,Minor,24,Yes,Yes,7.0,Fatigue,Barranquilla,18.6
+1092,56,FEMALE,Logistics,Technician,9.2,day,2024-09-30,Ergonomic,Minor,2,No,Unknown,9.0,Lack of Training,Barranquilla,14.4
+1230,45,FEMALE,Logistics,Technician,0.1,night,2023-01-07,Chemical Exposure,Minor,9,Yes,Yes,8.0,Fatigue,Cali,11.4
+1263,40,MALE,Maintenance,Coordinator,23.0,night,2025-04-14,Ergonomic,Minor,17,No,Yes,10.0,Unsafe Condition,Cali,14.4
+1078,42,FEMALE,Production,Analyst,11.6,day,2025-03-03,Fall,Minor,14,Yes,Yes,1.0,Human Error,Bogotá,0.0
+1286,39,FEMALE,Logistics,Operator,3.9,day,2025-01-21,Chemical Exposure,Severe,8,No,Yes,6.0,Fatigue,Barranquilla,21.8
+1222,19,FEMALE,Operations,Technician,23.2,night,2023-08-09,Ergonomic,Minor,21,Yes,Yes,1.0,PPE Non-Compliance,Medellín,21.6
+1006,57,FEMALE,Operations,Analyst,20.1,night,2024-09-14,Chemical Exposure,Minor,7,Yes,Yes,1.0,PPE Non-Compliance,Bogotá,7.1
+1264,59,MALE,Operations,Supervisor,11.3,day,2025-06-12,Struck By Object,Minor,11,Yes,No,9.0,Human Error,Cartagena,11.0
+1252,41,MALE,Logistics,Analyst,9.3,day,2023-11-19,Slip,Minor,1,Yes,Yes,8.0,PPE Non-Compliance,Cali,15.3
+1079,34,MALE,Maintenance,Technician,22.2,night,2024-06-29,Fall,Minor,2,Yes,Yes,5.0,Fatigue,Bogotá,12.3
+1197,27,FEMALE,Maintenance,Technician,17.1,day,2024-11-28,Fall,Moderate,4,Yes,Yes,9.0,Human Error,Cartagena,10.3
+1233,20,MALE,Operations,Supervisor,17.1,day,2024-01-04,Ergonomic,Severe,0,Yes,Yes,8.0,Lack of Training,Cali,6.3
+1056,21,FEMALE,Logistics,Coordinator,22.5,night,2023-12-26,Fall,Moderate,9,Yes,No,4.0,Human Error,Barranquilla,6.3
+1135,39,FEMALE,Operations,Operator,10.4,day,2023-03-21,Ergonomic,Moderate,10,Yes,Yes,9.0,Lack of Training,Cali,7.8
+1292,42,FEMALE,Production,Operator,11.6,night,2023-08-21,Cut,Minor,0,Yes,Yes,8.0,Unsafe Condition,Bogotá,0.0
+1033,37,FEMALE,Quality,Operator,22.9,day,2024-04-07,Struck By Object,Moderate,10,Yes,Yes,7.0,Lack of Training,Cartagena,2.1
+1109,48,MALE,Warehouse,Coordinator,23.7,day,2023-03-26,Slip,Minor,14,No,Yes,3.0,Unsafe Condition,Barranquilla,22.9
+1109,56,MALE,Quality,Coordinator,7.0,night,2023-03-03,Cut,Moderate,6,No,Yes,10.0,Lack of Training,Barranquilla,5.5
+1238,44,FEMALE,Maintenance,Coordinator,8.2,night,2023-07-23,Cut,Minor,10,No,Yes,4.0,Human Error,Bogotá,18.7
+1145,33,MALE,Quality,Analyst,22.2,day,2024-06-11,Slip,Minor,8,No,Yes,7.0,Lack of Training,Cartagena,0.0
+1073,56,FEMALE,Maintenance,Analyst,10.6,day,2023-03-20,Slip,Minor,8,Yes,No,4.0,Lack of Training,Barranquilla,13.8
+1226,55,FEMALE,Operations,Operator,14.7,night,2023-06-12,Ergonomic,Minor,3,No,Yes,4.0,Unsafe Condition,Bogotá,23.7
+1184,29,MALE,Warehouse,Operator,1.9,day,2023-03-27,Ergonomic,Moderate,1,No,No,6.0,Lack of Training,Medellín,24.2
+1278,25,FEMALE,Maintenance,Analyst,18.1,night,2023-02-15,Cut,Minor,13,No,Yes,6.0,Unsafe Condition,Barranquilla,30.6
+1242,24,MALE,Maintenance,Operator,2.4,day,2023-02-03,Cut,Minor,23,Yes,Yes,6.0,PPE Non-Compliance,Cali,11.8
+1113,47,FEMALE,Operations,Operator,23.7,day,2023-07-31,Fall,Minor,3,No,Yes,7.0,Fatigue,Bogotá,12.5
+1267,55,MALE,Logistics,Analyst,19.9,night,2024-11-02,Cut,Minor,15,Yes,Unknown,5.0,Lack of Training,Medellín,17.9
+1275,20,MALE,Maintenance,Operator,12.1,night,2024-07-05,Struck By Object,Moderate,11,Yes,Yes,1.0,Unsafe Condition,Medellín,11.9
+1237,27,FEMALE,Quality,Analyst,17.6,night,2025-05-30,Ergonomic,Minor,1,No,Yes,7.0,Fatigue,Barranquilla,0.0
+1234,34,FEMALE,Quality,Operator,24.1,night,2024-09-30,Fall,Moderate,8,Yes,Yes,7.0,Unsafe Condition,Cartagena,9.9
+1229,56,FEMALE,Warehouse,Analyst,5.2,night,2024-08-17,Chemical Exposure,Severe,10,Yes,Yes,9.0,Unsafe Condition,Medellín,19.9
+1034,56,MALE,Operations,Technician,15.7,night,2023-03-16,Struck By Object,Minor,8,No,Yes,3.0,Lack of Training,Cali,13.9
+1077,54,FEMALE,Operations,Operator,13.9,day,2024-09-05,Ergonomic,Severe,7,Yes,No,7.0,PPE Non-Compliance,Barranquilla,10.3
+1275,21,FEMALE,Quality,Coordinator,4.7,day,2024-12-06,Chemical Exposure,Moderate,2,Yes,Yes,2.0,Human Error,Bogotá,11.9
+1092,28,FEMALE,Logistics,Coordinator,8.4,night,2023-01-10,Ergonomic,Minor,7,No,Yes,1.0,Human Error,Barranquilla,12.1
+1093,53,FEMALE,Quality,Technician,23.9,night,2024-03-14,Cut,Minor,2,Yes,Yes,4.0,Unsafe Condition,Bogotá,7.6
+1149,30,MALE,Warehouse,Operator,16.4,day,2023-01-06,Ergonomic,Minor,9,Yes,Yes,1.0,Fatigue,Cartagena,25.0
+1046,33,FEMALE,Production,Technician,20.6,day,2023-05-29,Struck By Object,Minor,12,Yes,Yes,2.0,PPE Non-Compliance,Bogotá,10.4
+1086,27,MALE,Logistics,Operator,16.7,night,2023-03-20,Slip,Minor,4,Yes,Yes,8.0,Human Error,Cali,11.7
+1239,47,FEMALE,Maintenance,Operator,9.8,night,2025-04-14,Struck By Object,Severe,7,Yes,No,9.0,Human Error,Cali,19.3
+1226,27,MALE,Production,Analyst,6.5,day,2024-09-24,Fall,Moderate,9,Yes,Yes,9.0,Unsafe Condition,Barranquilla,13.9
+1293,23,MALE,Production,Analyst,16.8,day,2025-01-18,Chemical Exposure,Minor,13,Yes,Yes,8.0,Human Error,Barranquilla,25.9
+1253,23,MALE,Warehouse,Coordinator,12.1,day,2023-06-25,Cut,Minor,5,No,Unknown,10.0,Human Error,Cartagena,15.3
+1139,53,FEMALE,Quality,Analyst,3.5,day,2024-07-04,Cut,Moderate,21,Yes,No,7.0,Lack of Training,Bogotá,15.1
+1266,19,FEMALE,Logistics,Coordinator,18.9,night,2023-09-10,Chemical Exposure,Moderate,13,Yes,Yes,4.0,Unsafe Condition,Medellín,11.9
+1138,55,FEMALE,Production,Operator,17.1,day,2024-08-26,Ergonomic,Severe,2,Yes,Yes,10.0,Fatigue,Barranquilla,7.7
+1094,59,MALE,Logistics,Supervisor,18.2,night,2025-04-18,Chemical Exposure,Moderate,14,Yes,Yes,5.0,PPE Non-Compliance,Barranquilla,7.9
+1278,37,MALE,Maintenance,Analyst,3.8,night,2023-03-29,Ergonomic,Minor,14,Yes,Yes,7.0,Unsafe Condition,Barranquilla,7.6
+1208,41,MALE,Warehouse,Technician,13.1,night,2024-04-05,Fall,Severe,10,Yes,Yes,1.0,Unsafe Condition,Bogotá,16.2
+1054,14,FEMALE,Maintenance,Supervisor,7.4,day,2024-11-28,Struck By Object,Moderate,11,No,Yes,10.0,Lack of Training,Cartagena,7.3
+1288,59,MALE,Production,Analyst,18.5,day,2025-05-11,Chemical Exposure,Moderate,14,Yes,Yes,7.0,Human Error,Bogotá,7.8
+1091,26,FEMALE,Operations,Coordinator,10.2,day,2023-11-04,Fall,Severe,4,Yes,Yes,4.0,Human Error,Cali,18.7
+1150,35,MALE,Production,Coordinator,20.6,night,2023-04-15,Ergonomic,Severe,3,Yes,Yes,5.0,Human Error,Bogotá,10.6
+1037,56,FEMALE,Maintenance,Operator,20.7,night,2025-02-22,Ergonomic,Minor,3,Yes,Yes,1.0,Human Error,Cartagena,13.5
+1286,37,MALE,Warehouse,Analyst,0.1,night,2024-07-31,Chemical Exposure,Minor,1,Yes,Yes,2.0,Fatigue,Medellín,9.8
+1194,50,FEMALE,Logistics,Supervisor,19.1,night,2025-02-03,Slip,Moderate,13,Yes,No,9.0,Fatigue,Cali,15.1
+1111,32,MALE,Quality,Coordinator,25.0,day,2032-01-03,Ergonomic,Moderate,8,Yes,Yes,9.0,Human Error,Medellín,3.9
+1162,26,FEMALE,Quality,Coordinator,7.2,day,2024-09-08,Slip,Minor,6,Yes,Yes,10.0,Fatigue,Bogotá,9.6
+1164,53,MALE,Quality,Supervisor,15.3,day,2032-01-02,Cut,Minor,8,No,Yes,3.0,Fatigue,Bogotá,0.0
+1230,59,MALE,Warehouse,Supervisor,0.4,night,2023-04-14,Fall,Minor,1,Yes,Yes,4.0,PPE Non-Compliance,Cartagena,14.1
+1138,40,FEMALE,Warehouse,Coordinator,23.5,day,2023-07-07,Ergonomic,Moderate,9,No,Unknown,1.0,Unsafe Condition,Cartagena,21.3
+1001,22,MALE,Production,Operator,11.7,night,2023-11-29,Fall,Minor,7,Yes,Yes,10.0,Lack of Training,Cali,12.9
+1123,48,FEMALE,Operations,Operator,20.5,night,2023-04-09,Cut,Severe,9,Yes,Yes,1.0,Fatigue,Medellín,22.1
+1048,26,FEMALE,Logistics,Technician,12.7,day,2023-01-20,Ergonomic,Minor,12,Yes,No,10.0,PPE Non-Compliance,Bogotá,12.5
+1043,27,MALE,Operations,Supervisor,24.1,night,2025-03-12,Fall,Minor,4,Yes,Yes,5.0,Human Error,Cartagena,16.3
+1015,25,FEMALE,Quality,Coordinator,23.4,night,2024-08-06,Slip,Minor,2,Yes,Yes,4.0,Human Error,Medellín,10.1
+1178,27,FEMALE,Quality,Operator,18.6,night,2025-02-27,Struck By Object,Minor,13,Yes,Yes,6.0,Unsafe Condition,Medellín,8.2
+1196,43,MALE,Operations,Operator,10.8,day,2025-04-25,Cut,Minor,13,Yes,Yes,6.0,Fatigue,Cartagena,24.9
+1075,24,FEMALE,Maintenance,Supervisor,1.8,night,2023-04-14,Chemical Exposure,Severe,0,Yes,Yes,9.0,Human Error,Bogotá,12.3
+1077,52,FEMALE,Maintenance,Supervisor,10.7,night,2024-10-29,Slip,Moderate,0,Yes,Yes,6.0,Lack of Training,Bogotá,2.5
+1168,45,FEMALE,Quality,Coordinator,0.7,day,2023-04-06,Struck By Object,Minor,8,No,Yes,6.0,Lack of Training,Cali,5.6
+1045,34,MALE,Warehouse,Supervisor,3.7,night,2024-01-31,Slip,Minor,13,No,Yes,2.0,Human Error,Medellín,11.3
+1031,57,MALE,Logistics,Analyst,0.1,day,2023-11-06,Slip,Minor,0,Yes,Yes,3.0,Lack of Training,Bogotá,8.6
+1228,88,MALE,Warehouse,Operator,20.0,day,2023-08-24,Chemical Exposure,Minor,0,No,Yes,8.0,PPE Non-Compliance,Cali,24.2
+1047,47,MALE,Warehouse,Supervisor,23.4,day,2025-05-19,Ergonomic,Minor,9,Yes,Unknown,9.0,PPE Non-Compliance,Cartagena,0.7
+1076,26,FEMALE,Maintenance,Coordinator,17.5,day,2024-05-30,Chemical Exposure,Moderate,4,Yes,Yes,3.0,Fatigue,Cali,9.8
+1077,30,MALE,Warehouse,Analyst,7.9,day,2025-05-30,Cut,Moderate,0,No,No,4.0,Fatigue,Bogotá,11.8
+1033,34,FEMALE,Logistics,Supervisor,22.1,day,2023-05-23,Cut,Minor,3,No,Unknown,4.0,Fatigue,Cartagena,18.0
+1059,60,MALE,Production,Coordinator,12.7,day,2023-01-16,Fall,Minor,6,Yes,Unknown,7.0,Lack of Training,Medellín,20.2
+1234,55,FEMALE,Maintenance,Coordinator,16.1,night,2023-09-28,Slip,Moderate,2,Yes,Yes,8.0,Lack of Training,Medellín,7.8
+1066,39,FEMALE,Operations,Analyst,13.4,day,2023-11-09,Chemical Exposure,Severe,9,Yes,Yes,9.0,PPE Non-Compliance,Barranquilla,14.3
+1272,32,MALE,Logistics,Coordinator,8.7,night,2024-06-03,Struck By Object,Moderate,1,Yes,No,6.0,Unsafe Condition,Barranquilla,0.0
+1057,44,MALE,Quality,Technician,9.8,day,2024-12-31,Chemical Exposure,Minor,2,Yes,No,7.0,Lack of Training,Barranquilla,24.4
+1158,37,FEMALE,Warehouse,Coordinator,6.2,day,2023-03-17,Ergonomic,Minor,10,Yes,Yes,9.0,Lack of Training,Bogotá,2.9
+1052,34,FEMALE,Quality,Technician,13.8,day,2023-01-13,Struck By Object,Moderate,7,Yes,No,1.0,Lack of Training,Bogotá,32.0
+1243,58,MALE,Quality,Analyst,7.1,day,2024-10-25,Fall,Moderate,0,No,Yes,5.0,Fatigue,Barranquilla,29.1
+1025,29,FEMALE,Quality,Supervisor,14.8,day,2024-07-28,Fall,Minor,9,No,Yes,1.0,Lack of Training,Barranquilla,7.9
+1105,52,MALE,Logistics,Coordinator,11.7,day,2023-10-08,Chemical Exposure,Minor,13,Yes,Yes,10.0,Fatigue,Medellín,11.3
+1207,43,FEMALE,Production,Analyst,7.1,day,2024-11-28,Struck By Object,Minor,3,Yes,Yes,2.0,Unsafe Condition,Medellín,28.8
+1074,52,MALE,Production,Operator,13.0,night,2023-10-10,Fall,Minor,11,Yes,No,1.0,Human Error,Barranquilla,7.3
+1103,40,FEMALE,Warehouse,Operator,6.4,day,2025-05-30,Fall,Minor,0,Yes,Yes,6.0,PPE Non-Compliance,Cartagena,9.1
+1266,58,MALE,Logistics,Supervisor,24.9,night,2023-01-15,Fall,Minor,6,Yes,Yes,5.0,PPE Non-Compliance,Cali,24.7
+1210,55,FEMALE,Production,Operator,6.9,night,2025-02-04,Slip,Severe,7,Yes,Yes,7.0,Human Error,Bogotá,0.0
+1158,54,FEMALE,Quality,Analyst,23.0,night,2024-10-29,Cut,Minor,8,No,No,9.0,Fatigue,Medellín,0.9
+1062,60,MALE,Operations,Operator,18.8,night,2024-07-22,Chemical Exposure,Severe,15,No,Yes,9.0,Unsafe Condition,Cartagena,12.3
+1265,48,MALE,Operations,Supervisor,16.7,night,2023-12-31,Ergonomic,Minor,3,No,Yes,8.0,PPE Non-Compliance,Bogotá,18.9
+1262,38,FEMALE,Quality,Coordinator,15.4,night,2023-04-06,Slip,Moderate,6,No,Yes,6.0,Fatigue,Bogotá,16.3
+1073,54,MALE,Logistics,Technician,18.4,day,2023-09-01,Slip,Minor,7,Yes,Yes,5.0,Human Error,Barranquilla,12.3
+1106,57,FEMALE,Production,Supervisor,15.9,night,2023-05-23,Struck By Object,Moderate,8,Yes,No,2.0,PPE Non-Compliance,Cartagena,6.8
+1117,46,MALE,Maintenance,Operator,8.5,night,2023-11-24,Fall,Minor,16,Yes,Yes,7.0,Fatigue,Cali,0.0
+1271,53,FEMALE,Quality,Technician,19.7,day,2025-04-28,Chemical Exposure,Moderate,6,No,Yes,10.0,Fatigue,Barranquilla,11.4
